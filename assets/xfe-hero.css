@@ -1,0 +1,168 @@
+/* ==========================================================================
+   XFE Clothing — Hero
+   ========================================================================== */
+
+.xfe-hero {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  min-height: 85vh;
+  overflow: hidden;
+  background-color: var(--xfe-bg-elevated);
+  border-bottom: 1px solid var(--xfe-border);
+}
+
+.xfe-hero__media {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.xfe-hero__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.xfe-hero__placeholder {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 30% 20%, #101f14 0%, #050505 65%);
+}
+
+.xfe-hero__overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    linear-gradient(180deg, rgba(5, 5, 5, 0.35) 0%, rgba(5, 5, 5, 0.55) 55%, rgba(5, 5, 5, 0.92) 100%);
+}
+
+.xfe-hero__content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  padding-block: clamp(2.5rem, 6vw, 5rem);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.75rem;
+}
+
+.xfe-hero__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'SFMono-Regular', ui-monospace, Menlo, Consolas, monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--xfe-accent);
+  border: 1px solid var(--xfe-border);
+  border-radius: 999px;
+  padding: 0.4rem 0.9rem;
+  background-color: rgba(5, 5, 5, 0.4);
+}
+
+.xfe-hero__eyebrow-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--xfe-accent);
+  box-shadow: 0 0 8px var(--xfe-accent);
+}
+
+.xfe-hero__heading {
+  max-width: 18ch;
+  text-transform: uppercase;
+  font-size: clamp(2.5rem, 6.5vw, 5.5rem);
+  line-height: 0.98;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--xfe-text);
+}
+
+.xfe-hero__heading em {
+  font-style: normal;
+  color: var(--xfe-accent);
+}
+
+.xfe-hero__subtext {
+  max-width: 46ch;
+  font-size: clamp(1rem, 1.4vw, 1.15rem);
+  color: var(--xfe-text-muted);
+}
+
+.xfe-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* Botón principal con micro-animación de hover */
+.xfe-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.9rem 1.75rem;
+  border-radius: var(--xfe-radius);
+  overflow: hidden;
+  isolation: isolate;
+  transition: transform 350ms cubic-bezier(0.16, 1, 0.3, 1),
+    color 350ms cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 350ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.xfe-btn--primary {
+  background-color: var(--xfe-accent);
+  color: var(--xfe-accent-contrast);
+}
+
+.xfe-btn--primary::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-color: var(--xfe-text);
+  transform: translateY(101%);
+  transition: transform 400ms cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+.xfe-btn--primary:hover,
+.xfe-btn--primary:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px -8px rgba(74, 222, 128, 0.45);
+}
+
+.xfe-btn--primary:hover::before,
+.xfe-btn--primary:focus-visible::before {
+  transform: translateY(0);
+}
+
+.xfe-btn--secondary {
+  border: 1px solid var(--xfe-border);
+  color: var(--xfe-text);
+  background-color: transparent;
+}
+
+.xfe-btn--secondary:hover,
+.xfe-btn--secondary:focus-visible {
+  border-color: var(--xfe-accent);
+  color: var(--xfe-accent);
+  transform: translateY(-3px);
+}
+
+.xfe-btn__arrow {
+  display: inline-block;
+  transition: transform 350ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.xfe-btn:hover .xfe-btn__arrow,
+.xfe-btn:focus-visible .xfe-btn__arrow {
+  transform: translateX(4px);
+}

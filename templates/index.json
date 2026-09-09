@@ -1,0 +1,67 @@
+{
+  "sections": {
+    "hero": {
+      "type": "xfe-hero",
+      "settings": {
+        "eyebrow": "XFE / SS26",
+        "heading": "Built for those who move different.",
+        "subtext": "Ropa diseñada con la misma precisión con la que se construye un producto: minimalista, funcional y hecha para durar.",
+        "button_label": "Comprar ahora",
+        "button_url": "/collections/all",
+        "button_label_secondary": "Ver el manifiesto",
+        "button_url_secondary": "#manifesto"
+      }
+    },
+    "manifesto": {
+      "type": "xfe-bento-manifesto",
+      "settings": {
+        "eyebrow": "El manifiesto",
+        "title": "Cinco pilares. Un solo movimiento."
+      },
+      "blocks": {
+        "identity": {
+          "type": "pillar",
+          "settings": {
+            "icon": "identity",
+            "heading": "Identidad",
+            "text": "Sabemos quiénes somos y lo mostramos sin pedir permiso."
+          }
+        },
+        "excellence": {
+          "type": "pillar",
+          "settings": {
+            "icon": "excellence",
+            "heading": "Excelencia",
+            "text": "Cada prenda se construye con el mismo rigor que un producto bien diseñado."
+          }
+        },
+        "faith": {
+          "type": "pillar",
+          "settings": {
+            "icon": "faith",
+            "heading": "Fe",
+            "text": "Movemos distinto porque creemos en algo más grande que la tendencia."
+          }
+        },
+        "authenticity": {
+          "type": "pillar",
+          "settings": {
+            "icon": "authenticity",
+            "heading": "Autenticidad",
+            "text": "Sin atajos ni copias. Lo real se nota en los detalles."
+          }
+        },
+        "community": {
+          "type": "pillar",
+          "settings": {
+            "icon": "community",
+            "heading": "Comunidad",
+            "text": "Construimos con la gente que se mueve con nosotros, no para ella."
+          }
+        }
+      },
+      "block_order": ["identity", "excellence", "faith", "authenticity", "community"]
+    }
+  },
+  "order": ["hero", "manifesto"]
+}

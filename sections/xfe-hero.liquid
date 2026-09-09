@@ -1,0 +1,124 @@
+{{ 'xfe-hero.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign heading = section.settings.heading
+  assign eyebrow = section.settings.eyebrow
+  assign subtext = section.settings.subtext
+  assign image = section.settings.image
+-%}
+
+<section class="xfe-hero" {{ section.shopify_attributes }}>
+  <div class="xfe-hero__media">
+    {%- if image != blank -%}
+      <img
+        srcset="
+          {{ image | image_url: width: 750 }} 750w,
+          {{ image | image_url: width: 1100 }} 1100w,
+          {{ image | image_url: width: 1500 }} 1500w,
+          {{ image | image_url: width: 2000 }} 2000w
+        "
+        sizes="100vw"
+        src="{{ image | image_url: width: 1500 }}"
+        alt="{{ image.alt | default: heading | escape }}"
+        width="{{ image.width }}"
+        height="{{ image.height }}"
+        class="xfe-hero__image"
+        loading="eager"
+        fetchpriority="high"
+      >
+    {%- else -%}
+      <div class="xfe-hero__placeholder"></div>
+    {%- endif -%}
+    <div class="xfe-hero__overlay"></div>
+  </div>
+
+  <div class="xfe-container xfe-hero__content">
+    {%- if eyebrow != blank -%}
+      <span class="xfe-hero__eyebrow">
+        <span class="xfe-hero__eyebrow-dot"></span>
+        {{ eyebrow }}
+      </span>
+    {%- endif -%}
+
+    <h1 class="xfe-hero__heading">{{ heading }}</h1>
+
+    {%- if subtext != blank -%}
+      <p class="xfe-hero__subtext">{{ subtext }}</p>
+    {%- endif -%}
+
+    <div class="xfe-hero__actions">
+      {%- if section.settings.button_label != blank -%}
+        <a href="{{ section.settings.button_url | default: '#' }}" class="xfe-btn xfe-btn--primary">
+          {{ section.settings.button_label }}
+          <span class="xfe-btn__arrow" aria-hidden="true">&rarr;</span>
+        </a>
+      {%- endif -%}
+
+      {%- if section.settings.button_label_secondary != blank -%}
+        <a href="{{ section.settings.button_url_secondary | default: '#' }}" class="xfe-btn xfe-btn--secondary">
+          {{ section.settings.button_label_secondary }}
+        </a>
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "XFE Hero",
+  "tag": "section",
+  "class": "xfe-hero-section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Imagen de fondo"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Etiqueta superior",
+      "default": "XFE / SS26"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Título",
+      "default": "Built for those who move different."
+    },
+    {
+      "type": "textarea",
+      "id": "subtext",
+      "label": "Texto de apoyo",
+      "default": "Ropa diseñada con la misma precisión con la que se construye un producto: minimalista, funcional y hecha para durar."
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Texto del botón principal",
+      "default": "Comprar ahora"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Enlace del botón principal"
+    },
+    {
+      "type": "text",
+      "id": "button_label_secondary",
+      "label": "Texto del botón secundario",
+      "default": "Ver el manifiesto"
+    },
+    {
+      "type": "url",
+      "id": "button_url_secondary",
+      "label": "Enlace del botón secundario"
+    }
+  ],
+  "presets": [
+    {
+      "name": "XFE Hero"
+    }
+  ]
+}
+{% endschema %}

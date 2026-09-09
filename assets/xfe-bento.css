@@ -1,0 +1,187 @@
+/* ==========================================================================
+   XFE Clothing — Bento Manifesto
+   ========================================================================== */
+
+.xfe-bento {
+  padding-block: clamp(3rem, 8vw, 6rem);
+}
+
+.xfe-bento__header {
+  max-width: 60ch;
+  margin-bottom: clamp(2rem, 5vw, 3.5rem);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.xfe-bento__eyebrow {
+  font-family: 'SFMono-Regular', ui-monospace, Menlo, Consolas, monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--xfe-accent);
+}
+
+.xfe-bento__title {
+  font-size: clamp(1.75rem, 3.5vw, 2.75rem);
+  letter-spacing: -0.02em;
+}
+
+.xfe-bento__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+  gap: 1px;
+  background-color: var(--xfe-border);
+  border: 1px solid var(--xfe-border);
+  border-radius: var(--xfe-radius);
+  overflow: hidden;
+}
+
+.xfe-bento-card {
+  --glow-x: 50%;
+  --glow-y: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.85rem;
+  padding: clamp(1.5rem, 2.5vw, 2.25rem);
+  background-color: var(--xfe-bg-elevated);
+  grid-column: span 4;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 700px) {
+  .xfe-bento-card {
+    grid-column: span 2;
+  }
+
+  .xfe-bento-card:nth-child(1) {
+    grid-column: span 2;
+  }
+
+  .xfe-bento-card:nth-child(2),
+  .xfe-bento-card:nth-child(3) {
+    grid-column: span 1;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .xfe-bento__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .xfe-bento-card:nth-child(1) {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  .xfe-bento-card:nth-child(2) {
+    grid-column: span 2;
+  }
+
+  .xfe-bento-card:nth-child(3) {
+    grid-column: span 2;
+  }
+
+  .xfe-bento-card:nth-child(4) {
+    grid-column: span 2;
+  }
+
+  .xfe-bento-card:nth-child(5) {
+    grid-column: span 2;
+  }
+}
+
+/* Brillo sutil que sigue al cursor, delimitado por el borde de la tarjeta */
+.xfe-bento-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: radial-gradient(
+    360px circle at var(--glow-x) var(--glow-y),
+    rgba(74, 222, 128, 0.14),
+    transparent 65%
+  );
+  opacity: 0;
+  transition: opacity var(--xfe-transition);
+  pointer-events: none;
+}
+
+.xfe-bento-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border: 1px solid transparent;
+  background: radial-gradient(
+      220px circle at var(--glow-x) var(--glow-y),
+      rgba(74, 222, 128, 0.55),
+      transparent 70%
+    )
+    border-box;
+  -webkit-mask:
+    linear-gradient(#000 0 0) padding-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity var(--xfe-transition);
+  pointer-events: none;
+}
+
+.xfe-bento-card:hover::before,
+.xfe-bento-card:hover::after,
+.xfe-bento-card:focus-within::before,
+.xfe-bento-card:focus-within::after {
+  opacity: 1;
+}
+
+.xfe-bento-card__icon {
+  position: relative;
+  z-index: 1;
+  width: 34px;
+  height: 34px;
+  color: var(--xfe-accent);
+}
+
+.xfe-bento-card__icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.xfe-bento-card__index {
+  position: absolute;
+  top: clamp(1.25rem, 2vw, 1.75rem);
+  right: clamp(1.25rem, 2vw, 1.75rem);
+  z-index: 1;
+  font-family: 'SFMono-Regular', ui-monospace, Menlo, Consolas, monospace;
+  font-size: 0.75rem;
+  color: var(--xfe-text-muted);
+}
+
+.xfe-bento-card__title {
+  position: relative;
+  z-index: 1;
+  font-size: 1.35rem;
+  letter-spacing: -0.01em;
+}
+
+.xfe-bento-card__text {
+  position: relative;
+  z-index: 1;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--xfe-text-muted);
+  max-width: 42ch;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .xfe-bento-card::before,
+  .xfe-bento-card::after {
+    display: none;
+  }
+}
