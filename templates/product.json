@@ -1,0 +1,32 @@
+{
+  "sections": {
+    "main": {
+      "type": "xfe-main-product",
+      "blocks": {
+        "composition": {
+          "type": "spec",
+          "settings": {
+            "heading": "Composición",
+            "content": "<p>100% algodón peinado, 240 gsm.</p>"
+          }
+        },
+        "care": {
+          "type": "spec",
+          "settings": {
+            "heading": "Cuidado",
+            "content": "<p>Lavar en frío, del revés. No usar blanqueador.</p>"
+          }
+        },
+        "shipping": {
+          "type": "spec",
+          "settings": {
+            "heading": "Envíos y devoluciones",
+            "content": "<p>Envío en 2-5 días hábiles. Devoluciones gratuitas dentro de 30 días.</p>"
+          }
+        }
+      },
+      "block_order": ["composition", "care", "shipping"]
+    }
+  },
+  "order": ["main"]
+}

@@ -1,0 +1,204 @@
+{{ 'xfe-product.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign product_form_id = 'ProductForm-' | append: section.id
+  assign current_variant = product.selected_or_first_available_variant
+-%}
+
+<section class="xfe-product" data-xfe-product {{ section.shopify_attributes }}>
+  <div class="xfe-product__grid">
+    <!-- Columna izquierda: galería -->
+    <div class="xfe-product__gallery" data-xfe-gallery>
+      {%- for media in product.media -%}
+        <div class="xfe-product__media-item">
+          {%- case media.media_type -%}
+            {%- when 'image' -%}
+              <img
+                srcset="
+                  {{ media.preview_image | image_url: width: 600 }} 600w,
+                  {{ media.preview_image | image_url: width: 900 }} 900w,
+                  {{ media.preview_image | image_url: width: 1200 }} 1200w,
+                  {{ media.preview_image | image_url: width: 1600 }} 1600w
+                "
+                sizes="(min-width: 900px) 55vw, 100vw"
+                src="{{ media.preview_image | image_url: width: 1200 }}"
+                alt="{{ media.alt | escape }}"
+                width="{{ media.preview_image.width }}"
+                height="{{ media.preview_image.height }}"
+                loading="{% if forloop.index == 1 %}eager{% else %}lazy{% endif %}"
+                fetchpriority="{% if forloop.index == 1 %}high{% else %}auto{% endif %}"
+              >
+            {%- when 'video', 'external_video' -%}
+              {{ media | media_tag: controls: true }}
+            {%- when 'model' -%}
+              {{ media | media_tag }}
+            {%- else -%}
+              {{ media | media_tag }}
+          {%- endcase -%}
+        </div>
+      {%- else -%}
+        <div class="xfe-product__media-item xfe-product__media-item--placeholder">
+          {{ 'product-1' | placeholder_svg_tag: 'xfe-product__placeholder-svg' }}
+        </div>
+      {%- endfor -%}
+    </div>
+
+    <!-- Columna derecha: panel sticky -->
+    <div class="xfe-product__panel" data-xfe-panel>
+      <div class="xfe-product__panel-inner">
+        {%- if product.vendor != blank -%}
+          <p class="xfe-product__vendor">{{ product.vendor }}</p>
+        {%- endif -%}
+
+        <h1 class="xfe-product__title">{{ product.title }}</h1>
+
+        <p class="xfe-product__price" data-xfe-price>
+          {{ current_variant.price | money }}
+          {%- if current_variant.compare_at_price > current_variant.price -%}
+            <s class="xfe-product__price-compare">{{ current_variant.compare_at_price | money }}</s>
+          {%- endif -%}
+        </p>
+
+        {%- if product.description != blank -%}
+          <div class="xfe-product__description">{{ product.description }}</div>
+        {%- endif -%}
+
+        {%- form 'product', product, id: product_form_id, class: 'xfe-product__form', data-xfe-product-form: '' -%}
+          <input type="hidden" name="id" value="{{ current_variant.id }}" data-xfe-variant-id>
+
+          {%- unless product.has_only_default_variant -%}
+            {%- for option in product.options_with_values -%}
+              <fieldset class="xfe-option" data-xfe-option data-option-position="{{ forloop.index0 }}">
+                <legend class="xfe-option__label">
+                  <span>{{ option.name }}</span>
+                  <span class="xfe-option__value" data-xfe-option-value>{{ option.selected_value }}</span>
+                </legend>
+                <div class="xfe-option__list">
+                  {%- for value in option.values -%}
+                    {%- assign input_id = product_form_id | append: '-option-' | append: forloop.parentloop.index | append: '-' | append: forloop.index -%}
+                    <input
+                      type="radio"
+                      id="{{ input_id }}"
+                      name="option-{{ forloop.parentloop.index }}"
+                      value="{{ value | escape }}"
+                      class="xfe-visually-hidden"
+                      {% if option.selected_value == value %}checked{% endif %}
+                      data-xfe-option-input
+                    >
+                    <label class="xfe-option__pill" for="{{ input_id }}">{{ value }}</label>
+                  {%- endfor -%}
+                </div>
+              </fieldset>
+            {%- endfor -%}
+          {%- endunless -%}
+
+          <div class="xfe-product__quantity">
+            <label for="Quantity-{{ section.id }}" class="xfe-product__quantity-label">Cantidad</label>
+            <div class="xfe-quantity">
+              <button type="button" class="xfe-quantity__btn" data-xfe-quantity-minus aria-label="Reducir cantidad">&minus;</button>
+              <input
+                type="number"
+                id="Quantity-{{ section.id }}"
+                class="xfe-quantity__input"
+                name="quantity"
+                value="1"
+                min="1"
+                inputmode="numeric"
+                data-xfe-quantity-input
+              >
+              <button type="button" class="xfe-quantity__btn" data-xfe-quantity-plus aria-label="Aumentar cantidad">+</button>
+            </div>
+          </div>
+
+          <button
+            type="submit"
+            name="add"
+            class="xfe-btn xfe-btn--primary xfe-add-to-cart"
+            data-xfe-add-to-cart
+            {% if current_variant.available == false %}disabled{% endif %}
+          >
+            <span class="xfe-add-to-cart__state xfe-add-to-cart__state--idle" data-xfe-state="idle">
+              {% if current_variant.available %}Añadir al carrito{% else %}Agotado{% endif %}
+            </span>
+            <span class="xfe-add-to-cart__state xfe-add-to-cart__state--loading" data-xfe-state="loading">
+              <span class="xfe-spinner" aria-hidden="true"></span> Añadiendo&hellip;
+            </span>
+            <span class="xfe-add-to-cart__state xfe-add-to-cart__state--success" data-xfe-state="success">
+              <svg class="xfe-add-to-cart__check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 12.5l5 5L20 6.5"></path>
+              </svg>
+              Agregado
+            </span>
+          </button>
+
+          {%- if form.errors -%}
+            <div class="xfe-add-to-cart__error" role="alert">
+              {{ form.errors | default_errors }}
+            </div>
+          {%- else -%}
+            <div class="xfe-add-to-cart__error" role="alert" data-xfe-form-error hidden></div>
+          {%- endif -%}
+        {%- endform -%}
+
+        {%- if section.blocks.size > 0 -%}
+          <div class="xfe-specs">
+            {%- for block in section.blocks -%}
+              {%- case block.type -%}
+                {%- when 'spec' -%}
+                  <details class="xfe-specs__item" {{ block.shopify_attributes }}>
+                    <summary class="xfe-specs__summary">
+                      {{ block.settings.heading }}
+                      <span class="xfe-specs__icon" aria-hidden="true">+</span>
+                    </summary>
+                    <div class="xfe-specs__content">{{ block.settings.content }}</div>
+                  </details>
+              {%- endcase -%}
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</section>
+
+<script type="application/json" data-xfe-variants>
+  {{ product.variants | json }}
+</script>
+
+<script src="{{ 'xfe-product.js' | asset_url }}" defer="defer"></script>
+
+{% schema %}
+{
+  "name": "XFE Main Product",
+  "tag": "section",
+  "class": "xfe-main-product-section",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "spec",
+      "name": "Especificación",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Título",
+          "default": "Composición"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Contenido",
+          "default": "<p>100% algodón peinado, 240 gsm.</p>"
+        }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      { "type": "spec", "settings": { "heading": "Composición", "content": "<p>100% algodón peinado, 240 gsm.</p>" } },
+      { "type": "spec", "settings": { "heading": "Cuidado", "content": "<p>Lavar en frío, del revés. No usar blanqueador.</p>" } },
+      { "type": "spec", "settings": { "heading": "Envíos y devoluciones", "content": "<p>Envío en 2-5 días hábiles. Devoluciones gratuitas dentro de 30 días.</p>" } }
+    ]
+  }
+}
+{% endschema %}
