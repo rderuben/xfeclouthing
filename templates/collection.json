@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "xfe-main-collection",
+      "settings": {
+        "products_per_page": 12,
+        "columns_desktop": 3
+      }
+    }
+  },
+  "order": ["main"]
+}

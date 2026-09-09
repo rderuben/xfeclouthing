@@ -1,0 +1,73 @@
+{
+  "sections": {
+    "main": {
+      "type": "xfe-page",
+      "settings": {
+        "eyebrow": "Legal",
+        "heading": "Términos y condiciones",
+        "intro": "Al acceder y comprar en este sitio, aceptas los términos descritos a continuación. Este texto es una plantilla base de referencia; te recomendamos que la revise un asesor legal antes de publicarla y que la ajustes a la operación real de tu tienda.",
+        "meta": "Última actualización: por definir"
+      },
+      "blocks": {
+        "aceptacion": {
+          "type": "block",
+          "settings": {
+            "heading": "1. Aceptación de los términos",
+            "content": "<p>Al utilizar este sitio web aceptas cumplir con estos términos y condiciones, todas las leyes y regulaciones aplicables. Si no estás de acuerdo con alguno de estos términos, no debes usar ni acceder a este sitio.</p>"
+          }
+        },
+        "uso": {
+          "type": "block",
+          "settings": {
+            "heading": "2. Uso del sitio",
+            "content": "<p>Te comprometes a utilizar este sitio únicamente con fines lícitos y de una manera que no infrinja los derechos de, ni restrinja o inhiba el uso y disfrute de este sitio por parte de terceros.</p>"
+          }
+        },
+        "productos": {
+          "type": "block",
+          "settings": {
+            "heading": "3. Productos y precios",
+            "content": "<p>Nos reservamos el derecho de modificar precios, descontinuar productos o limitar cantidades sin previo aviso. Hacemos nuestro mejor esfuerzo por mostrar con precisión los colores y detalles de cada prenda, aunque no podemos garantizar que la pantalla de tu dispositivo refleje el color exacto del producto.</p>"
+          }
+        },
+        "cuentas": {
+          "type": "block",
+          "settings": {
+            "heading": "4. Cuentas de usuario",
+            "content": "<p>Si creas una cuenta en nuestro sitio, eres responsable de mantener la confidencialidad de tu información de acceso y de todas las actividades que ocurran bajo tu cuenta.</p>"
+          }
+        },
+        "propiedad": {
+          "type": "block",
+          "settings": {
+            "heading": "5. Propiedad intelectual",
+            "content": "<p>Todo el contenido de este sitio, incluyendo logotipos, gráficos, textos e imágenes, es propiedad de XFE Clothing o de sus licenciantes y está protegido por leyes de propiedad intelectual. Queda prohibida su reproducción sin autorización previa.</p>"
+          }
+        },
+        "responsabilidad": {
+          "type": "block",
+          "settings": {
+            "heading": "6. Limitación de responsabilidad",
+            "content": "<p>XFE Clothing no será responsable de ningún daño directo, indirecto, incidental o consecuente que resulte del uso o la imposibilidad de uso de nuestros productos o de este sitio.</p>"
+          }
+        },
+        "cambios": {
+          "type": "block",
+          "settings": {
+            "heading": "7. Cambios a estos términos",
+            "content": "<p>Podemos actualizar estos términos y condiciones en cualquier momento. Los cambios entrarán en vigor desde su publicación en esta página, por lo que te recomendamos revisarla periódicamente.</p>"
+          }
+        },
+        "contacto": {
+          "type": "block",
+          "settings": {
+            "heading": "8. Contacto",
+            "content": "<p>Si tienes dudas sobre estos términos y condiciones, puedes escribirnos a través de nuestros canales de atención al cliente.</p>"
+          }
+        }
+      },
+      "block_order": ["aceptacion", "uso", "productos", "cuentas", "propiedad", "responsabilidad", "cambios", "contacto"]
+    }
+  },
+  "order": ["main"]
+}

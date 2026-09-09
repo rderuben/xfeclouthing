@@ -1,0 +1,80 @@
+{%- doc -%}
+  Renders a dark, minimal product card for grid contexts (collection, search, related products).
+
+  @param product {product} - The product to render.
+{%- enddoc -%}
+
+{%- liquid
+  assign card_product = product
+  assign featured_image = card_product.featured_media.preview_image
+  assign secondary_image = null
+  for media in card_product.media
+    if media.media_type == 'image' and media.id != card_product.featured_media.id
+      assign secondary_image = media.preview_image
+      break
+    endif
+  endfor
+-%}
+
+<div class="xfe-card">
+  <div class="xfe-card__media">
+    {%- if featured_image != blank -%}
+      <img
+        class="xfe-card__image xfe-card__image--primary"
+        src="{{ featured_image | image_url: width: 700 }}"
+        srcset="
+          {{ featured_image | image_url: width: 400 }} 400w,
+          {{ featured_image | image_url: width: 700 }} 700w,
+          {{ featured_image | image_url: width: 1000 }} 1000w
+        "
+        sizes="(min-width: 700px) 33vw, 50vw"
+        alt="{{ featured_image.alt | escape }}"
+        width="{{ featured_image.width }}"
+        height="{{ featured_image.height }}"
+        loading="lazy"
+      >
+    {%- else -%}
+      {{ 'product-1' | placeholder_svg_tag: 'xfe-product__placeholder-svg' }}
+    {%- endif -%}
+
+    {%- if secondary_image != blank -%}
+      <img
+        class="xfe-card__image xfe-card__image--secondary"
+        src="{{ secondary_image | image_url: width: 700 }}"
+        srcset="
+          {{ secondary_image | image_url: width: 400 }} 400w,
+          {{ secondary_image | image_url: width: 700 }} 700w,
+          {{ secondary_image | image_url: width: 1000 }} 1000w
+        "
+        sizes="(min-width: 700px) 33vw, 50vw"
+        alt=""
+        width="{{ secondary_image.width }}"
+        height="{{ secondary_image.height }}"
+        loading="lazy"
+        aria-hidden="true"
+      >
+    {%- endif -%}
+
+    <div class="xfe-card__badges">
+      {%- if card_product.available == false -%}
+        <span class="xfe-card__badge xfe-card__badge--sold-out">Agotado</span>
+      {%- elsif card_product.compare_at_price > card_product.price -%}
+        <span class="xfe-card__badge xfe-card__badge--sale">Oferta</span>
+      {%- endif -%}
+    </div>
+  </div>
+
+  <div class="xfe-card__body">
+    <h3 class="xfe-card__title">
+      <a href="{{ card_product.url }}" class="xfe-card__link">{{ card_product.title }}</a>
+    </h3>
+    <div class="xfe-card__price">
+      {%- if card_product.compare_at_price > card_product.price -%}
+        <span class="xfe-card__price-sale">{{ card_product.price | money }}</span>
+        <span class="xfe-card__price-compare">{{ card_product.compare_at_price | money }}</span>
+      {%- else -%}
+        <span>{{ card_product.price | money }}</span>
+      {%- endif -%}
+    </div>
+  </div>
+</div>

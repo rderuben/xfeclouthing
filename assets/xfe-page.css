@@ -1,0 +1,99 @@
+/* ==========================================================================
+   XFE Clothing — Institutional / legal pages
+   ========================================================================== */
+
+.xfe-page-hero {
+  padding-block: clamp(3rem, 7vw, 5.5rem) clamp(2rem, 4vw, 3rem);
+  border-bottom: 1px solid var(--xfe-border);
+}
+
+.xfe-page-hero__eyebrow {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-family: 'SFMono-Regular', ui-monospace, Menlo, Consolas, monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--xfe-accent);
+}
+
+.xfe-page-hero__title {
+  max-width: 22ch;
+  font-size: clamp(2.25rem, 5vw, 3.75rem);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.xfe-page-hero__intro {
+  max-width: 65ch;
+  margin-top: 1.25rem;
+  font-size: clamp(1rem, 1.3vw, 1.15rem);
+  line-height: 1.7;
+  color: var(--xfe-text-muted);
+}
+
+.xfe-page-hero__meta {
+  margin-top: 1rem;
+  font-family: 'SFMono-Regular', ui-monospace, Menlo, Consolas, monospace;
+  font-size: 0.8rem;
+  color: var(--xfe-text-muted);
+}
+
+.xfe-page-body {
+  display: flex;
+  flex-direction: column;
+  padding-block: clamp(1rem, 3vw, 1.5rem);
+}
+
+.xfe-page-block {
+  max-width: 70ch;
+  padding-block: clamp(2rem, 4vw, 2.75rem);
+  border-top: 1px solid var(--xfe-border);
+}
+
+.xfe-page-block:first-child {
+  border-top: none;
+}
+
+.xfe-page-block__heading {
+  font-size: clamp(1.25rem, 2vw, 1.6rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.85rem;
+}
+
+.xfe-page-block__content {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--xfe-text-muted);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.xfe-page-block__content a {
+  color: var(--xfe-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.xfe-page-block__content ul,
+.xfe-page-block__content ol {
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.xfe-page-block__content ul {
+  list-style: disc;
+}
+
+.xfe-page-block__content ol {
+  list-style: decimal;
+}
+
+.xfe-page-block__content strong {
+  color: var(--xfe-text);
+}

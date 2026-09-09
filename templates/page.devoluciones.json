@@ -1,0 +1,59 @@
+{
+  "sections": {
+    "main": {
+      "type": "xfe-page",
+      "settings": {
+        "eyebrow": "Soporte",
+        "heading": "Envíos y devoluciones",
+        "intro": "Los tiempos y costos siguientes son de referencia: ajústalos a tu operación logística real antes de publicar esta página.",
+        "meta": "Última actualización: por definir"
+      },
+      "blocks": {
+        "tiempos": {
+          "type": "block",
+          "settings": {
+            "heading": "Tiempos de envío",
+            "content": "<p>Los pedidos se procesan en un plazo de 1 a 2 días hábiles. Una vez despachados, el tiempo estimado de entrega es de 2 a 5 días hábiles a nivel nacional.</p>"
+          }
+        },
+        "costos": {
+          "type": "block",
+          "settings": {
+            "heading": "Costos de envío",
+            "content": "<p>El costo de envío se calcula automáticamente en el checkout según tu ubicación y el peso del pedido. Ofrecemos envío gratuito en compras que superen el monto mínimo indicado en el carrito.</p>"
+          }
+        },
+        "iniciar": {
+          "type": "block",
+          "settings": {
+            "heading": "Cómo iniciar una devolución",
+            "content": "<p>Escríbenos dentro de los 30 días posteriores a la entrega indicando tu número de pedido y el motivo de la devolución. Te enviaremos las instrucciones y la etiqueta de envío correspondiente.</p>"
+          }
+        },
+        "condiciones": {
+          "type": "block",
+          "settings": {
+            "heading": "Condiciones para devoluciones",
+            "content": "<p>Las prendas deben devolverse sin uso, con etiquetas originales y en su empaque original. No se aceptan devoluciones de artículos en oferta final, ropa interior o productos personalizados.</p>"
+          }
+        },
+        "cambios": {
+          "type": "block",
+          "settings": {
+            "heading": "Cambios de talla",
+            "content": "<p>Si necesitas otra talla, indícalo al iniciar tu solicitud. Los cambios están sujetos a disponibilidad de inventario en el momento de procesar tu devolución.</p>"
+          }
+        },
+        "reembolsos": {
+          "type": "block",
+          "settings": {
+            "heading": "Reembolsos",
+            "content": "<p>Una vez que recibamos e inspeccionemos tu devolución, procesaremos el reembolso al método de pago original en un plazo de 5 a 10 días hábiles.</p>"
+          }
+        }
+      },
+      "block_order": ["tiempos", "costos", "iniciar", "condiciones", "cambios", "reembolsos"]
+    }
+  },
+  "order": ["main"]
+}

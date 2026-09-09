@@ -1,0 +1,44 @@
+{
+  "sections": {
+    "main": {
+      "type": "xfe-page",
+      "settings": {
+        "eyebrow": "Sobre XFE",
+        "heading": "Nuestra historia empieza donde termina la excusa.",
+        "intro": "XFE Clothing nace de la idea de que la ropa, como el buen software, debería estar construida con intención: sin relleno, sin ruido, hecha para quienes se mueven distinto."
+      },
+      "blocks": {
+        "origen": {
+          "type": "block",
+          "settings": {
+            "heading": "De dónde venimos",
+            "content": "<p>XFE empezó como una pregunta simple: ¿por qué la ropa que representa una mentalidad de alto rendimiento se ve y se siente igual que todo lo demás? Construimos la marca con la misma disciplina con la que se construye un producto digital: iterando, quitando lo innecesario y quedándonos solo con lo que funciona.</p>"
+          }
+        },
+        "creemos": {
+          "type": "block",
+          "settings": {
+            "heading": "Lo que creemos",
+            "content": "<p>Cinco ideas sostienen todo lo que hacemos:</p><ul><li><strong>Identidad.</strong> Sabemos quiénes somos y lo mostramos sin pedir permiso.</li><li><strong>Excelencia.</strong> Cada prenda se construye con el mismo rigor que un producto bien diseñado.</li><li><strong>Fe.</strong> Nos movemos distinto porque creemos en algo más grande que la tendencia.</li><li><strong>Autenticidad.</strong> Sin atajos ni copias. Lo real se nota en los detalles.</li><li><strong>Comunidad.</strong> Construimos con la gente que se mueve con nosotros, no para ella.</li></ul>"
+          }
+        },
+        "como": {
+          "type": "block",
+          "settings": {
+            "heading": "Cómo trabajamos",
+            "content": "<p>Priorizamos telas y confecciones duraderas sobre la producción rápida. Preferimos lanzar menos piezas, mejor hechas, antes que saturar el catálogo. Cada colección pasa por el mismo estándar: si no lo usaríamos nosotros todos los días, no lo lanzamos.</p>"
+          }
+        },
+        "futuro": {
+          "type": "block",
+          "settings": {
+            "heading": "Hacia dónde vamos",
+            "content": "<p>Estamos construyendo algo más grande que una marca de ropa: una comunidad de personas que deciden moverse diferente, con propósito. Este es apenas el comienzo.</p>"
+          }
+        }
+      },
+      "block_order": ["origen", "creemos", "como", "futuro"]
+    }
+  },
+  "order": ["main"]
+}

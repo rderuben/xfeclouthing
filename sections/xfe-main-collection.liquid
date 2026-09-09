@@ -1,0 +1,108 @@
+{{ 'xfe-collection.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign products_per_page = section.settings.products_per_page
+  assign columns_desktop = section.settings.columns_desktop
+-%}
+
+<div {{ section.shopify_attributes }}>
+  <div class="xfe-container xfe-collection-header">
+    <div class="xfe-collection-header__text">
+      <span class="xfe-collection-header__eyebrow">Catálogo</span>
+      <h1 class="xfe-collection-header__title">{{ collection.title }}</h1>
+      {%- if collection.description != blank -%}
+        <div class="xfe-collection-header__description">{{ collection.description }}</div>
+      {%- endif -%}
+    </div>
+    <span class="xfe-collection-header__count">
+      {{ collection.products_count }} {% if collection.products_count == 1 %}producto{% else %}productos{% endif %}
+    </span>
+  </div>
+
+  {%- if collection.products.size > 0 -%}
+    <form class="xfe-container xfe-sort" data-xfe-sort-form>
+      <label for="SortBy-{{ section.id }}">Ordenar por</label>
+      <select name="sort_by" id="SortBy-{{ section.id }}" class="xfe-sort__select" data-xfe-sort-select>
+        {%- for option in collection.sort_options -%}
+          <option value="{{ option.value }}" {% if option.value == collection.sort_by %}selected{% endif %}>
+            {{ option.name }}
+          </option>
+        {%- endfor -%}
+      </select>
+    </form>
+
+    {%- paginate collection.products by products_per_page -%}
+      <div
+        class="xfe-container xfe-collection-grid"
+        style="--xfe-cols-desktop: {{ columns_desktop }};"
+      >
+        {%- for product in collection.products -%}
+          {%- render 'xfe-product-card', product: product -%}
+        {%- endfor -%}
+      </div>
+
+      {%- if paginate.pages > 1 -%}
+        <nav class="xfe-pagination" aria-label="Paginación de productos">
+          <a
+            class="xfe-pagination__item"
+            href="{{ paginate.previous.url | default: '#' }}"
+            aria-disabled="{% unless paginate.previous %}true{% endunless %}"
+            aria-label="Página anterior"
+          >&larr;</a>
+
+          {%- for part in paginate.parts -%}
+            {%- if part.is_link -%}
+              <a class="xfe-pagination__item" href="{{ part.url }}">{{ part.title }}</a>
+            {%- else -%}
+              <span class="xfe-pagination__item {% if part.title == paginate.current_page %}is-current{% endif %}">
+                {{ part.title }}
+              </span>
+            {%- endif -%}
+          {%- endfor -%}
+
+          <a
+            class="xfe-pagination__item"
+            href="{{ paginate.next.url | default: '#' }}"
+            aria-disabled="{% unless paginate.next %}true{% endunless %}"
+            aria-label="Página siguiente"
+          >&rarr;</a>
+        </nav>
+      {%- endif -%}
+    {%- endpaginate -%}
+  {%- else -%}
+    <div class="xfe-container xfe-collection-empty">
+      <p>Todavía no hay productos en esta colección.</p>
+      <a href="{{ routes.all_products_collection_url }}">Ver todo el catálogo &rarr;</a>
+    </div>
+  {%- endif -%}
+</div>
+
+<script src="{{ 'xfe-collection.js' | asset_url }}" defer="defer"></script>
+
+{% schema %}
+{
+  "name": "XFE Collection",
+  "tag": "section",
+  "class": "xfe-collection-section",
+  "settings": [
+    {
+      "type": "range",
+      "id": "products_per_page",
+      "label": "Productos por página",
+      "min": 4,
+      "max": 48,
+      "step": 4,
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "label": "Columnas en escritorio",
+      "min": 2,
+      "max": 4,
+      "step": 1,
+      "default": 3
+    }
+  ]
+}
+{% endschema %}
