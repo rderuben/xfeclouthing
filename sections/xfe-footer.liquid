@@ -1,0 +1,96 @@
+{{ 'xfe-footer.css' | asset_url | stylesheet_tag }}
+
+<footer class="xfe-footer">
+  <div class="xfe-container xfe-footer__grid">
+    <div class="xfe-footer__brand">
+      <a href="{{ routes.root_url }}" class="xfe-footer__logo">
+        <span class="xfe-logo__bracket">[</span>{{ section.settings.logo_text | default: shop.name }}<span class="xfe-logo__bracket">]</span>
+      </a>
+      {%- if section.settings.tagline != blank -%}
+        <p class="xfe-footer__tagline">{{ section.settings.tagline }}</p>
+      {%- endif -%}
+    </div>
+
+    {%- if section.blocks.size > 0 -%}
+      <nav class="xfe-footer__nav" aria-label="Enlaces del pie de página">
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'link' -%}
+              <a
+                href="{{ block.settings.url }}"
+                class="xfe-footer__link"
+                {{ block.shopify_attributes }}
+              >
+                {{ block.settings.label }}
+              </a>
+          {%- endcase -%}
+        {%- endfor -%}
+      </nav>
+    {%- endif -%}
+  </div>
+
+  <div class="xfe-container xfe-footer__bottom">
+    <span>&copy; {{ 'now' | date: '%Y' }} {{ shop.name }}. Todos los derechos reservados.</span>
+    <span>Diseñado para quienes construyen el futuro.</span>
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "XFE Footer",
+  "tag": "footer",
+  "class": "xfe-footer-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "logo_text",
+      "label": "Texto del logotipo",
+      "default": "XFE"
+    },
+    {
+      "type": "textarea",
+      "id": "tagline",
+      "label": "Descripción breve",
+      "default": "Streetwear de precisión, construido con la mentalidad de un producto SaaS."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "link",
+      "name": "Enlace",
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Etiqueta",
+          "default": "Enlace"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "URL"
+        }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      { "type": "link", "settings": { "label": "Tienda", "url": "/collections/all" } },
+      { "type": "link", "settings": { "label": "Nosotros", "url": "/pages/about" } },
+      { "type": "link", "settings": { "label": "Términos y condiciones", "url": "/pages/terms-of-service" } },
+      { "type": "link", "settings": { "label": "Política de devoluciones", "url": "/pages/return-policy" } }
+    ]
+  },
+  "presets": [
+    {
+      "name": "XFE Footer",
+      "blocks": [
+        { "type": "link", "settings": { "label": "Tienda", "url": "/collections/all" } },
+        { "type": "link", "settings": { "label": "Nosotros", "url": "/pages/about" } },
+        { "type": "link", "settings": { "label": "Términos y condiciones", "url": "/pages/terms-of-service" } },
+        { "type": "link", "settings": { "label": "Política de devoluciones", "url": "/pages/return-policy" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

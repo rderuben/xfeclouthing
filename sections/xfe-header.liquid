@@ -1,0 +1,93 @@
+{{ 'xfe-header.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign logo_text = section.settings.logo_text | default: shop.name
+  assign main_menu = section.settings.menu
+-%}
+
+<header class="xfe-header" data-xfe-header>
+  <div class="xfe-container xfe-header__inner">
+    <a href="{{ routes.root_url }}" class="xfe-logo">
+      <span class="xfe-logo__bracket">[</span>{{ logo_text }}<span class="xfe-logo__bracket">]</span>
+    </a>
+
+    {%- if main_menu != blank -%}
+      <nav class="xfe-nav" aria-label="Navegación principal">
+        {%- for link in main_menu.links -%}
+          <a
+            href="{{ link.url }}"
+            class="xfe-nav__link"
+            {% if link.active %}aria-current="page"{% endif %}
+          >
+            {{ link.title }}
+          </a>
+        {%- endfor -%}
+      </nav>
+    {%- endif -%}
+
+    <div class="xfe-header__actions">
+      <a href="{{ routes.cart_url }}" class="xfe-cart" aria-label="Carrito">
+        <span class="xfe-cart__bracket" aria-hidden="true">[</span>
+        <span class="xfe-cart__count" data-xfe-cart-count>{{ cart.item_count }}</span>
+        <span class="xfe-cart__bracket" aria-hidden="true">]</span>
+      </a>
+
+      {%- if main_menu != blank -%}
+        <button
+          type="button"
+          class="xfe-menu-toggle"
+          data-xfe-menu-toggle
+          aria-expanded="false"
+          aria-controls="XfeNavMobile"
+          aria-label="Abrir menú"
+        >
+          <span class="xfe-menu-toggle__bar"></span>
+          <span class="xfe-menu-toggle__bar"></span>
+          <span class="xfe-menu-toggle__bar"></span>
+        </button>
+      {%- endif -%}
+    </div>
+  </div>
+
+  {%- if main_menu != blank -%}
+    <nav
+      id="XfeNavMobile"
+      class="xfe-nav-mobile"
+      data-xfe-nav-mobile
+      aria-label="Navegación móvil"
+    >
+      {%- for link in main_menu.links -%}
+        <a href="{{ link.url }}" class="xfe-nav-mobile__link">{{ link.title }}</a>
+      {%- endfor -%}
+    </nav>
+  {%- endif -%}
+</header>
+
+<script src="{{ 'xfe-header.js' | asset_url }}" defer="defer"></script>
+
+{% schema %}
+{
+  "name": "XFE Header",
+  "tag": "section",
+  "class": "xfe-header-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "logo_text",
+      "label": "Texto del logotipo",
+      "default": "XFE"
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Menú de navegación",
+      "default": "main-menu"
+    }
+  ],
+  "presets": [
+    {
+      "name": "XFE Header"
+    }
+  ]
+}
+{% endschema %}
