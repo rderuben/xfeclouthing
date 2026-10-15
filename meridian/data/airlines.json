@@ -1,0 +1,1255 @@
+[
+ {
+  "prefix": "001",
+  "iata": "AA",
+  "name": "American Airlines Cargo",
+  "url": "https://www.aacargo.com/AACargo/tracking",
+  "flag": "U"
+ },
+ {
+  "prefix": "006",
+  "iata": "DL",
+  "name": "Delta Cargo",
+  "url": "https://www.deltacargo.com/Cargo/",
+  "flag": "U"
+ },
+ {
+  "prefix": "012",
+  "iata": "NW",
+  "name": "Northwest Airlines Cargo",
+  "url": "https://www.track-express.com/northwest-airlines-cargo-tracking/",
+  "flag": "D"
+ },
+ {
+  "prefix": "014",
+  "iata": "AC",
+  "name": "Air Canada Cargo",
+  "url": "https://www.aircanada.com/cargo/tracking",
+  "flag": "U"
+ },
+ {
+  "prefix": "016",
+  "iata": "UA",
+  "name": "United Cargo",
+  "url": "https://www.unitedcargo.com/en/us/track",
+  "flag": "U"
+ },
+ {
+  "prefix": "020",
+  "iata": "LH",
+  "name": "Lufthansa Cargo",
+  "url": "https://www.lufthansa-cargo.com/en/eservices/etracking",
+  "flag": "U"
+ },
+ {
+  "prefix": "023",
+  "iata": "FX",
+  "name": "FedEx Express",
+  "url": "https://www.fedex.com/en-us/tracking.html",
+  "flag": "U"
+ },
+ {
+  "prefix": "027",
+  "iata": "AS",
+  "name": "Alaska Airlines",
+  "url": "https://www.alaskacargo.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "028",
+  "iata": "7Q",
+  "name": "Air Venezuela L.T.A.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "037",
+  "iata": "US",
+  "name": "US Airways",
+  "url": "https://www.aacargo.com/AACargo/tracking",
+  "flag": "M"
+ },
+ {
+  "prefix": "042",
+  "iata": "RG",
+  "name": "Varig S.A.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "044",
+  "iata": "AR",
+  "name": "Aerolíneas Argentinas",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "045",
+  "iata": "LA",
+  "name": "Lan Chile S.A. (LATAM Cargo)",
+  "url": "https://www.latamcargo.com/",
+  "flag": "M"
+ },
+ {
+  "prefix": "047",
+  "iata": "TP",
+  "name": "TAP – Air Portugal",
+  "url": "https://www.tapcargo.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "048",
+  "iata": "CY",
+  "name": "Cyprus Airways",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "049",
+  "iata": "DR",
+  "name": "Mediterranean Air Service",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "050",
+  "iata": "OA",
+  "name": "Olympic Airways",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "051",
+  "iata": "LB",
+  "name": "Lloyd Aero Boliviano (LAB)",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "053",
+  "iata": "EI",
+  "name": "Aer Lingus Cargo",
+  "url": "https://www.iagcargo.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "055",
+  "iata": "AZ",
+  "name": "Alitalia – Linee Aeree Italiane",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "057",
+  "iata": "AF",
+  "name": "Air France",
+  "url": "https://www.afklcargo.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "058",
+  "iata": "IC",
+  "name": "Indian Airlines",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "063",
+  "iata": "SB",
+  "name": "Air Caledonie International",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "064",
+  "iata": "OK",
+  "name": "CSA Czech Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "065",
+  "iata": "SV",
+  "name": "Saudi Arabian Airlines",
+  "url": "https://www.saudiacargo.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "068",
+  "iata": "TM",
+  "name": "LAM – Linhas Aereas Moçambique",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "069",
+  "iata": "MJ",
+  "name": "Lineas Aereas Privadas Argentinas",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "070",
+  "iata": "RB",
+  "name": "Syrian Arab Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "071",
+  "iata": "ET",
+  "name": "Ethiopian Airlines Enterprise",
+  "url": "https://cargo.ethiopianairlines.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "072",
+  "iata": "GF",
+  "name": "Gulf Air Company G.S.C.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "073",
+  "iata": "IA",
+  "name": "Iraqi Airways",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "074",
+  "iata": "KL",
+  "name": "KLM Royal Dutch Airlines",
+  "url": "https://www.afklcargo.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "075",
+  "iata": "IB",
+  "name": "Iberia Líneas Aéreas de España",
+  "url": "https://www.iagcargo.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "076",
+  "iata": "ME",
+  "name": "Middle East Airlines AirLiban",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "077",
+  "iata": "MS",
+  "name": "Egyptair",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "079",
+  "iata": "PR",
+  "name": "Philippine Airlines Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "080",
+  "iata": "LO",
+  "name": "LOT – Polish Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "081",
+  "iata": "QF",
+  "name": "Qantas Airways Ltd.",
+  "url": "https://www.qantasfreight.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "082",
+  "iata": "SN",
+  "name": "SABENA",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "083",
+  "iata": "SA",
+  "name": "South African Airways",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "085",
+  "iata": "SR",
+  "name": "Swiss Air Transport Co. (Swissair)",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "086",
+  "iata": "NZ",
+  "name": "Air New Zealand Ltd.",
+  "url": "https://www.airnzcargo.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "087",
+  "iata": "WT",
+  "name": "Nigeria Airways Ltd.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "090",
+  "iata": "AN",
+  "name": "Ansett Australia",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "091",
+  "iata": "DP",
+  "name": "Air 2000 Ltd.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "092",
+  "iata": "RK",
+  "name": "Air Afrique",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "093",
+  "iata": "WG",
+  "name": "Wasaya Airways Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "095",
+  "iata": "6A",
+  "name": "AVIACSA",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "096",
+  "iata": "IR",
+  "name": "Iran Air",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "098",
+  "iata": "AI",
+  "name": "Air India Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "100",
+  "iata": "JQ",
+  "name": "Air Jamaica Express Ltd.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "108",
+  "iata": "FI",
+  "name": "Icelandair",
+  "url": "https://www.icelandaircargo.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "109",
+  "iata": "L9",
+  "name": "Air Mali S.A.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "110",
+  "iata": "AO",
+  "name": "Aviación y Comercio S.A. (Aviaco)",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "112",
+  "iata": "CK",
+  "name": "China Cargo Airlines Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "114",
+  "iata": "LY",
+  "name": "EL AL Israel Airlines Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "115",
+  "iata": "JU",
+  "name": "Jugoslovenski Aerotransport (JAT)",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "117",
+  "iata": "SK",
+  "name": "Scandinavian Airlines System (SAS)",
+  "url": "https://www.sascargo.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "118",
+  "iata": "DT",
+  "name": "TAAG Linhas Aereas de Angola",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "124",
+  "iata": "AH",
+  "name": "Air Algérie",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "125",
+  "iata": "BA",
+  "name": "British Airways P.L.C.",
+  "url": "https://www.iagcargo.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "129",
+  "iata": "MP",
+  "name": "Martinair Holland N.V.",
+  "url": "https://www.afklcargo.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "130",
+  "iata": "UK",
+  "name": "KLM UK Ltd.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "131",
+  "iata": "JL",
+  "name": "Japan Airlines Company",
+  "url": "https://www.jal.co.jp/jalcargo/en/",
+  "flag": "K"
+ },
+ {
+  "prefix": "132",
+  "iata": "MX",
+  "name": "Mexicana de Aviación",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "133",
+  "iata": "LR",
+  "name": "Lineas Aereas Costarricenses (LACSA)",
+  "url": "https://www.aviancacargo.com/",
+  "flag": "M"
+ },
+ {
+  "prefix": "134",
+  "iata": "AV",
+  "name": "Avianca",
+  "url": "https://www.aviancacargo.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "135",
+  "iata": "VT",
+  "name": "Air Tahiti",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "136",
+  "iata": "CU",
+  "name": "Cubana de Aviación S.A.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "137",
+  "iata": "VX",
+  "name": "Aerolíneas Centrales de Colombia",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "138",
+  "iata": "HG",
+  "name": "Haiti International Airlines",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "139",
+  "iata": "AM",
+  "name": "Aeroméxico Cargo",
+  "url": "https://aeromexicocargo.com.mx/",
+  "flag": "K"
+ },
+ {
+  "prefix": "143",
+  "iata": "AU",
+  "name": "Cielos del Sur / Austral Líneas Aéreas",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "145",
+  "iata": "UC",
+  "name": "Ladeco S.A. / Ladeco Airlines (LATAM Cargo)",
+  "url": "https://www.latamcargo.com/",
+  "flag": "M"
+ },
+ {
+  "prefix": "147",
+  "iata": "AT",
+  "name": "Royal Air Maroc",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "148",
+  "iata": "LN",
+  "name": "Jamahiriya Libyan Arab Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "149",
+  "iata": "LG",
+  "name": "Luxair",
+  "url": "https://www.luxaircargo.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "152",
+  "iata": "VH",
+  "name": "Aeropostal Alas de Venezuela",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "155",
+  "iata": "ES",
+  "name": "DHL International E.C.",
+  "url": "https://www.dhl.com/global-en/home/tracking.html",
+  "flag": "K"
+ },
+ {
+  "prefix": "156",
+  "iata": "EH",
+  "name": "SAETA Soc. Ecuatoriana de Ttes. Aéreos",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "157",
+  "iata": "QR",
+  "name": "Qatar Airways (W.L.L.)",
+  "url": "https://www.qrcargo.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "159",
+  "iata": "ND",
+  "name": "Airlink Limited",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "160",
+  "iata": "CX",
+  "name": "Cathay Pacific Airways",
+  "url": "https://www.cathaycargo.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "162",
+  "iata": "PH",
+  "name": "Polynesian Limited",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "165",
+  "iata": "JP",
+  "name": "Adria Airways",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "170",
+  "iata": "GE",
+  "name": "Trans Asia Airways",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "172",
+  "iata": "CV",
+  "name": "Cargolux Airlines International",
+  "url": "https://www.cargolux.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "173",
+  "iata": "HA",
+  "name": "Hawaiian Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "174",
+  "iata": "MR",
+  "name": "Air Mauritanie",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "176",
+  "iata": "EK",
+  "name": "Emirates SkyCargo",
+  "url": "https://www.skycargo.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "180",
+  "iata": "KE",
+  "name": "Korean Air Lines Co. Ltd.",
+  "url": "https://cargo.koreanair.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "190",
+  "iata": "TY",
+  "name": "Air Calédonie",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "202",
+  "iata": "TA",
+  "name": "TACA International Airlines",
+  "url": "https://www.aviancacargo.com/",
+  "flag": "M"
+ },
+ {
+  "prefix": "205",
+  "iata": "NH",
+  "name": "All Nippon Airways Co. Ltd.",
+  "url": "https://www.ana.co.jp/en/jp/cargo/",
+  "flag": "K"
+ },
+ {
+  "prefix": "210",
+  "iata": "PL",
+  "name": "Aeroperu",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "214",
+  "iata": "PK",
+  "name": "Pakistan International Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "216",
+  "iata": "N8",
+  "name": "National Airlines Cargo",
+  "url": "https://www.nationalairlines.com/track-your-shipment/",
+  "flag": "U"
+ },
+ {
+  "prefix": "220",
+  "iata": "LH",
+  "name": "Deutsche Lufthansa AG",
+  "url": "https://www.lufthansa-cargo.com/en/eservices/etracking",
+  "flag": "U"
+ },
+ {
+  "prefix": "229",
+  "iata": "KU",
+  "name": "Kuwait Airways",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "230",
+  "iata": "CM",
+  "name": "COPA",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "232",
+  "iata": "MH",
+  "name": "Malaysian Airlines System Berhad",
+  "url": "https://www.maskargo.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "234",
+  "iata": "JD",
+  "name": "Japan Air System Company",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "235",
+  "iata": "TK",
+  "name": "Turkish Airlines",
+  "url": "https://www.turkishcargo.com.tr/",
+  "flag": "K"
+ },
+ {
+  "prefix": "236",
+  "iata": "BD",
+  "name": "British Midland Airways Ltd.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "242",
+  "iata": "A4",
+  "name": "Southern Winds S.A.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "245",
+  "iata": "7F",
+  "name": "Finnair",
+  "url": "https://cargo.finnair.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "260",
+  "iata": "FJ",
+  "name": "Air Pacific Ltd. (Fiji Airways)",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "269",
+  "iata": "EQ",
+  "name": "TAME Línea Aérea del Ecuador",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "278",
+  "iata": "FS",
+  "name": "Servicios de Ttes. Aéreos Fueguinos",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "284",
+  "iata": "T2",
+  "name": "Thai Air Cargo Co. Ltd.",
+  "url": "https://www.thaicargo.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "286",
+  "iata": "PU",
+  "name": "PLUNA",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "297",
+  "iata": "CI",
+  "name": "China Airlines",
+  "url": "https://cargo.china-airlines.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "341",
+  "iata": "EU",
+  "name": "Ecuatoriana de Aviación S.A.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "343",
+  "iata": "VP",
+  "name": "VASP",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "349",
+  "iata": "KM",
+  "name": "Maersk Air",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "353",
+  "iata": "UN",
+  "name": "Japan Transocean Air Co. Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "401",
+  "iata": "HP",
+  "name": "America West Airlines Inc.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "403",
+  "iata": "PO",
+  "name": "Polar Air Cargo, Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "404",
+  "iata": "JW",
+  "name": "Arrow Air Inc.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "406",
+  "iata": "5X",
+  "name": "UPS",
+  "url": "https://www.ups.com/track",
+  "flag": "K"
+ },
+ {
+  "prefix": "423",
+  "iata": "ER",
+  "name": "DHL Airways",
+  "url": "https://www.dhl.com/global-en/home/tracking.html",
+  "flag": "K"
+ },
+ {
+  "prefix": "429",
+  "iata": "D7",
+  "name": "Dinar Líneas Aéreas S.A.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "430",
+  "iata": "9E",
+  "name": "Express Airlines, Inc.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "466",
+  "iata": "5Z",
+  "name": "Airfreight Express Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "468",
+  "iata": "WO",
+  "name": "World Airways",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "471",
+  "iata": "ZV",
+  "name": "Air Midwest",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "472",
+  "iata": "BN",
+  "name": "Forward Air International Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "480",
+  "iata": "DH",
+  "name": "Atlantic Coast Airlines / United Exp.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "486",
+  "iata": "8G",
+  "name": "Gulf & Caribbean Cargo",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "494",
+  "iata": "EZ",
+  "name": "Evergreen International Airlines",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "527",
+  "iata": "UC",
+  "name": "LADECO Cargo (LATAM Cargo)",
+  "url": "https://www.latamcargo.com/",
+  "flag": "M"
+ },
+ {
+  "prefix": "528",
+  "iata": "ZN",
+  "name": "Eagle Airlines Luftverkehrsges.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "529",
+  "iata": "A2",
+  "name": "Cielos del Perú S.A.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "532",
+  "iata": "E4",
+  "name": "Aero Asia International Ltd.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "544",
+  "iata": "LP",
+  "name": "Lan Peru S.A. (LATAM Cargo)",
+  "url": "https://www.latamcargo.com/",
+  "flag": "M"
+ },
+ {
+  "prefix": "550",
+  "iata": "BL",
+  "name": "Pacific Airlines Co. Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "553",
+  "iata": "FC",
+  "name": "Falcon Express Cargo Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "555",
+  "iata": "SU",
+  "name": "Aeroflot",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "591",
+  "iata": "EB",
+  "name": "Emery Worldwide Airlines Inc.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "592",
+  "iata": "3Q",
+  "name": "China Yunnan Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "607",
+  "iata": "EY",
+  "name": "Etihad Cargo",
+  "url": "https://www.etihadcargo.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "608",
+  "iata": "RS",
+  "name": "Intercontinental de Aviación",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "617",
+  "iata": "HF",
+  "name": "Hapag Lloyd Fluggesellschaft",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "618",
+  "iata": "SQ",
+  "name": "Singapore Airlines",
+  "url": "https://www.siacargo.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "619",
+  "iata": "F6",
+  "name": "China National Aviation Corp.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "653",
+  "iata": "TR",
+  "name": "Transbrasil S.A. Linhas Aéreas",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "667",
+  "iata": "PE",
+  "name": "Air Europe S.p.A.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "680",
+  "iata": "JK",
+  "name": "Spanair S.A.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "683",
+  "iata": "CL",
+  "name": "Lufthansa CityLine GmbH",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "688",
+  "iata": "EG",
+  "name": "Japan Asia Airways Co. Ltd.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "692",
+  "iata": "PZ",
+  "name": "TAM S.A. (LATAM Cargo)",
+  "url": "https://www.latamcargo.com/",
+  "flag": "M"
+ },
+ {
+  "prefix": "695",
+  "iata": "BR",
+  "name": "EVA Airways Corporation",
+  "url": "https://www.evaair.com/en-global/cargo/",
+  "flag": "K"
+ },
+ {
+  "prefix": "700",
+  "iata": "5C",
+  "name": "C.A.L. Cargo Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "702",
+  "iata": "VB",
+  "name": "Maersk Air Ltd.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "708",
+  "iata": "JO",
+  "name": "JALways Co. Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "725",
+  "iata": "YU",
+  "name": "Aerolíneas Dominicanas S.A.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "731",
+  "iata": "MF",
+  "name": "Xiamen Airlines Company",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "768",
+  "iata": "EL",
+  "name": "Air Nippon Co.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "774",
+  "iata": "FM",
+  "name": "Shanghai Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "779",
+  "iata": "XW",
+  "name": "China Xinhua Airlines",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "781",
+  "iata": "MU",
+  "name": "China Eastern Airlines",
+  "url": "https://www.ceair.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "782",
+  "iata": "CJ",
+  "name": "China Northern Airlines",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "783",
+  "iata": "WH",
+  "name": "China Northwest Airlines",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "784",
+  "iata": "CZ",
+  "name": "China Southern Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "785",
+  "iata": "SZ",
+  "name": "China Southwest Airlines",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "824",
+  "iata": "XT",
+  "name": "KLM Exel",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "832",
+  "iata": "GB",
+  "name": "ABX Air, Inc.",
+  "url": "https://www.abxair.com/",
+  "flag": "K"
+ },
+ {
+  "prefix": "865",
+  "iata": "MY",
+  "name": "Aerotransportes Mas de Carga",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "877",
+  "iata": "KK",
+  "name": "TAM Transportes Aéreos Regionais",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "898",
+  "iata": "ML",
+  "name": "Olympic Aviation S.A.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "929",
+  "iata": "N6",
+  "name": "Aero Continente",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "933",
+  "iata": "KZ",
+  "name": "Nippon Cargo Airlines",
+  "url": "https://www.nca.aero/",
+  "flag": "K"
+ },
+ {
+  "prefix": "941",
+  "iata": "ZQ",
+  "name": "Ansett New Zealand",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "942",
+  "iata": "VW",
+  "name": "Transportes Aeromar",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "957",
+  "iata": "JJ",
+  "name": "TAM Ttes. Aéreos Meridionais (LATAM Cargo)",
+  "url": "https://www.latamcargo.com/",
+  "flag": "M"
+ },
+ {
+  "prefix": "970",
+  "iata": "BX",
+  "name": "Coast Air K.S.",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "992",
+  "iata": "D5",
+  "name": "DHL Aero Expresso",
+  "url": null,
+  "flag": "D"
+ },
+ {
+  "prefix": "996",
+  "iata": "UX",
+  "name": "Air Europa Líneas Aéreas",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "999",
+  "iata": "CA",
+  "name": "Air China International Corp.",
+  "url": "https://www.airchinacargo.com/",
+  "flag": "K"
+ }
+]

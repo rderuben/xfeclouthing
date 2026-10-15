@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { AlertTriangle, CheckCircle2, Copy, ExternalLink, Search } from "lucide-react"
 
-import { search, type Airline } from "@/lib/airlines"
+import { search, trackingUrl, type Airline } from "@/lib/airlines"
 
 function AirlineCard({ a, awb }: { a: Airline; awb?: string }) {
   const [copied, setCopied] = useState(false)
@@ -19,7 +19,12 @@ function AirlineCard({ a, awb }: { a: Airline; awb?: string }) {
     <div className="flex items-center justify-between gap-3 rounded-lg border bg-card p-4 shadow-sm">
       <div className="min-w-0">
         <p className="truncate font-medium">{a.name}</p>
-        <p className="text-sm text-muted-foreground">Prefix {a.prefix} · {a.country}</p>
+        <p className="text-sm text-muted-foreground">
+          Prefix {a.prefix} · {a.iata}
+          {a.flag === "D" && <span className="ml-2 rounded bg-red-100 px-1.5 py-0.5 text-xs text-red-700">Defunct</span>}
+          {a.flag === "M" && <span className="ml-2 rounded bg-blue-100 px-1.5 py-0.5 text-xs text-blue-700">Now part of another carrier</span>}
+          {a.flag === "" && <span className="ml-2 rounded bg-amber-100 px-1.5 py-0.5 text-xs text-amber-700">Unverified link</span>}
+        </p>
       </div>
       <div className="flex shrink-0 gap-2">
         {awb && (
@@ -27,9 +32,9 @@ function AirlineCard({ a, awb }: { a: Airline; awb?: string }) {
             <Copy className="size-4" /> {copied ? "Copied" : "Copy AWB"}
           </button>
         )}
-        <a href={a.url} target="_blank" rel="noopener noreferrer"
+        <a href={trackingUrl(a)} target="_blank" rel="noopener noreferrer"
           className="inline-flex items-center gap-1 rounded-md bg-primary px-3 py-2 text-sm text-primary-foreground hover:opacity-90">
-          Track <ExternalLink className="size-4" />
+          {a.flag === "" ? "Search" : "Track"} <ExternalLink className="size-4" />
         </a>
       </div>
     </div>
