@@ -7,10 +7,24 @@
   "flag": "U"
  },
  {
+  "prefix": "005",
+  "iata": "CO",
+  "name": "Continental Airlines, Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "006",
   "iata": "DL",
   "name": "Delta Cargo",
   "url": "https://www.deltacargo.com/Cargo/",
+  "flag": "U"
+ },
+ {
+  "prefix": "007",
+  "iata": "N7",
+  "name": "National Airlines Cargo",
+  "url": "https://www.nationalairlines.com/track-your-shipment/",
   "flag": "U"
  },
  {
@@ -28,11 +42,32 @@
   "flag": "U"
  },
  {
+  "prefix": "015",
+  "iata": "TW",
+  "name": "Trans World Airlines Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "016",
   "iata": "UA",
   "name": "United Cargo",
   "url": "https://www.unitedcargo.com/en/us/track",
   "flag": "U"
+ },
+ {
+  "prefix": "017",
+  "iata": "WZ",
+  "name": "IBC Aviation Service Inc. Western Air Freight",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "018",
+  "iata": "CP",
+  "name": "Canadian Airlines International Limited",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "020",
@@ -63,11 +98,39 @@
   "flag": "D"
  },
  {
+  "prefix": "029",
+  "iata": "3K",
+  "name": "Tatonduk outfitters Ltd. Air Cargo Express",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "036",
+  "iata": "AD",
+  "name": "Avialeasing Aviation Comp.",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "037",
   "iata": "US",
   "name": "US Airways",
   "url": "https://www.aacargo.com/AACargo/tracking",
   "flag": "M"
+ },
+ {
+  "prefix": "038",
+  "iata": "TQ",
+  "name": "Tandem Aero Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "041",
+  "iata": "C7",
+  "name": "Aerocontinente Chile S.A.",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "042",
@@ -77,9 +140,16 @@
   "flag": "D"
  },
  {
+  "prefix": "043",
+  "iata": "KA",
+  "name": "Hong Kong Dragon Airlines Limited",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "044",
   "iata": "AR",
-  "name": "Aerolíneas Argentinas",
+  "name": "Aerolíneas Argentinas S.A.",
   "url": null,
   "flag": ""
  },
@@ -133,11 +203,25 @@
   "flag": "K"
  },
  {
+  "prefix": "054",
+  "iata": "9P",
+  "name": "Pelangi Airways Sdn. Bhd",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "055",
   "iata": "AZ",
   "name": "Alitalia – Linee Aeree Italiane",
   "url": null,
   "flag": "D"
+ },
+ {
+  "prefix": "056",
+  "iata": "YK",
+  "name": "Kibris Turk Hava Yollari",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "057",
@@ -152,6 +236,27 @@
   "name": "Indian Airlines",
   "url": null,
   "flag": "D"
+ },
+ {
+  "prefix": "060",
+  "iata": "YC",
+  "name": "Flight West Airlines Pty Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "061",
+  "iata": "HM",
+  "name": "Air Seychelles Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "062",
+  "iata": "5V",
+  "name": "Lviv Airlines",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "063",
@@ -175,9 +280,16 @@
   "flag": "K"
  },
  {
+  "prefix": "067",
+  "iata": "Y4",
+  "name": "Eagle Aviation Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "068",
   "iata": "TM",
-  "name": "LAM – Linhas Aereas Moçambique",
+  "name": "LAM - Linhas Aereas de Mocambique",
   "url": null,
   "flag": ""
  },
@@ -245,6 +357,13 @@
   "flag": ""
  },
  {
+  "prefix": "078",
+  "iata": "JR",
+  "name": "Aero California",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "079",
   "iata": "PR",
   "name": "Philippine Airlines Inc.",
@@ -254,7 +373,7 @@
  {
   "prefix": "080",
   "iata": "LO",
-  "name": "LOT – Polish Airlines",
+  "name": "LOT Polish Airlines",
   "url": null,
   "flag": ""
  },
@@ -301,6 +420,13 @@
   "flag": "D"
  },
  {
+  "prefix": "088",
+  "iata": "2B",
+  "name": "ATA Aerocondor Transportes Aereos Lda.",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "090",
   "iata": "AN",
   "name": "Ansett Australia",
@@ -329,6 +455,13 @@
   "flag": ""
  },
  {
+  "prefix": "094",
+  "iata": "7W",
+  "name": "Air Sask Aviation 1991",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "095",
   "iata": "6A",
   "name": "AVIACSA",
@@ -338,7 +471,7 @@
  {
   "prefix": "096",
   "iata": "IR",
-  "name": "Iran Air",
+  "name": "Iran Air - The Airline of Islamic Republic of Iran",
   "url": null,
   "flag": ""
  },
@@ -355,6 +488,41 @@
   "name": "Air Jamaica Express Ltd.",
   "url": null,
   "flag": "D"
+ },
+ {
+  "prefix": "101",
+  "iata": "EN",
+  "name": "Air Dolomiti SPA Linee Aeree Regionali Europee",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "102",
+  "iata": "KG",
+  "name": "Linea Aerea I.A.A.C.A. (L.A.I.)",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "104",
+  "iata": "EW",
+  "name": "Eurowings A.G.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "106",
+  "iata": "BW",
+  "name": "BWIA International Airways Limited",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "107",
+  "iata": "F7",
+  "name": "Closed Joint-Stock Aircompany Volare",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "108",
@@ -378,9 +546,23 @@
   "flag": "D"
  },
  {
+  "prefix": "111",
+  "iata": "UP",
+  "name": "Bahamasair",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "112",
   "iata": "CK",
   "name": "China Cargo Airlines Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "113",
+  "iata": "GW",
+  "name": "Air Lines of Kuban",
   "url": null,
   "flag": ""
  },
@@ -408,14 +590,42 @@
  {
   "prefix": "118",
   "iata": "DT",
-  "name": "TAAG Linhas Aereas de Angola",
+  "name": "TAAG Linhas Aereas de Angola - Angola Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "119",
+  "iata": "LM",
+  "name": "ALM 1997 Airline Inc., AirALM",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "120",
+  "iata": "JS",
+  "name": "Air Koryo",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "121",
+  "iata": "ZY",
+  "name": "Ada Air",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "123",
+  "iata": "ON",
+  "name": "Air Nauru",
   "url": null,
   "flag": ""
  },
  {
   "prefix": "124",
   "iata": "AH",
-  "name": "Air Algérie",
+  "name": "Air Algerie",
   "url": null,
   "flag": ""
  },
@@ -425,6 +635,20 @@
   "name": "British Airways P.L.C.",
   "url": "https://www.iagcargo.com/",
   "flag": "K"
+ },
+ {
+  "prefix": "126",
+  "iata": "GA",
+  "name": "Garuda Indonesia",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "128",
+  "iata": "VE",
+  "name": "Aerovias Venezolanas S.A. (Avensa)",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "129",
@@ -504,6 +728,27 @@
   "flag": "K"
  },
  {
+  "prefix": "140",
+  "iata": "LI",
+  "name": "LIAT (1974) Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "141",
+  "iata": "ZC",
+  "name": "Royal Swazi National Airways Corp.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "142",
+  "iata": "KF",
+  "name": "Oy Air Botnia Ab.",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "143",
   "iata": "AU",
   "name": "Cielos del Sur / Austral Líneas Aéreas",
@@ -511,11 +756,25 @@
   "flag": "D"
  },
  {
+  "prefix": "144",
+  "iata": "7T",
+  "name": "Aero Express del Ecuador (Trans AM)",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "145",
   "iata": "UC",
   "name": "Ladeco S.A. / Ladeco Airlines (LATAM Cargo)",
   "url": "https://www.latamcargo.com/",
   "flag": "M"
+ },
+ {
+  "prefix": "146",
+  "iata": "XK",
+  "name": "Compagnie Aerienne Corse Mediterranee",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "147",
@@ -539,11 +798,32 @@
   "flag": "K"
  },
  {
+  "prefix": "150",
+  "iata": "UG",
+  "name": "Tuninter S.A.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "151",
+  "iata": "Q9",
+  "name": "Interbrasil Star S.A.",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "152",
   "iata": "VH",
   "name": "Aeropostal Alas de Venezuela",
   "url": null,
   "flag": "D"
+ },
+ {
+  "prefix": "154",
+  "iata": "BU",
+  "name": "Braathens ASA",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "155",
@@ -581,6 +861,13 @@
   "flag": "K"
  },
  {
+  "prefix": "161",
+  "iata": "MN",
+  "name": "Comair Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "162",
   "iata": "PH",
   "name": "Polynesian Limited",
@@ -595,11 +882,46 @@
   "flag": "D"
  },
  {
+  "prefix": "166",
+  "iata": "IK",
+  "name": "IMAIR Airline",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "167",
+  "iata": "QM",
+  "name": "Air Malawi Limited",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "168",
+  "iata": "UM",
+  "name": "Air Zimbabwe Corporation",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "169",
+  "iata": "HR",
+  "name": "Hahn Air Businessline",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "170",
   "iata": "GE",
   "name": "Trans Asia Airways",
   "url": null,
   "flag": "D"
+ },
+ {
+  "prefix": "171",
+  "iata": "GT",
+  "name": "GB Airways Ltd.",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "172",
@@ -630,6 +952,13 @@
   "flag": "K"
  },
  {
+  "prefix": "178",
+  "iata": "SJ",
+  "name": "AVIANDINA S.A.C.",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "180",
   "iata": "KE",
   "name": "Korean Air Lines Co. Ltd.",
@@ -637,9 +966,128 @@
   "flag": "K"
  },
  {
+  "prefix": "181",
+  "iata": "Z6",
+  "name": "Dnieproavia - Joint Stock Aviation Co.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "182",
+  "iata": "MA",
+  "name": "MALEV Hungarian Airlines Public Limited Company (Malev p.l.c.)",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "183",
+  "iata": "8K",
+  "name": "Air Ostrava",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "184",
+  "iata": "U7",
+  "name": "USA Jet Airlines, Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "185",
+  "iata": "GN",
+  "name": "Air Gabon",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "186",
+  "iata": "SW",
+  "name": "Air Namibia",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "188",
+  "iata": "3J",
+  "name": "Air Alliance, Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "189",
+  "iata": "C2",
+  "name": "Air Caribbean Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "190",
   "iata": "TY",
-  "name": "Air Calédonie",
+  "name": "Air Caledonie",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "191",
+  "iata": "IG",
+  "name": "Meridiana S.p.A",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "192",
+  "iata": "PY",
+  "name": "Surinam Airways Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "193",
+  "iata": "IE",
+  "name": "Solomon Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "196",
+  "iata": "LZ",
+  "name": "Balkan - Bulgarian Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "197",
+  "iata": "TC",
+  "name": "Air Tanzania Corporation",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "198",
+  "iata": "X5",
+  "name": "Cronus Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "199",
+  "iata": "TU",
+  "name": "Tunis Air",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "200",
+  "iata": "SD",
+  "name": "Sudan Airways Co. Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "201",
+  "iata": "JM",
+  "name": "Air Jamaica",
   "url": null,
   "flag": ""
  },
@@ -651,11 +1099,53 @@
   "flag": "M"
  },
  {
+  "prefix": "203",
+  "iata": "5J",
+  "name": "CEBU Pacific Air",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "204",
+  "iata": "T6",
+  "name": "Tavrey Aircompany",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "205",
   "iata": "NH",
   "name": "All Nippon Airways Co. Ltd.",
   "url": "https://www.ana.co.jp/en/jp/cargo/",
   "flag": "K"
+ },
+ {
+  "prefix": "206",
+  "iata": "GY",
+  "name": "Guyana Airways 2000 Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "207",
+  "iata": "R6",
+  "name": "Air Srpska",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "208",
+  "iata": "B3",
+  "name": "Bellview Airlines Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "209",
+  "iata": "UB",
+  "name": "Myanmar Airways Int'l",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "210",
@@ -665,6 +1155,20 @@
   "flag": "D"
  },
  {
+  "prefix": "211",
+  "iata": "2P",
+  "name": "Air Philippines Corp.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "213",
+  "iata": "DY",
+  "name": "Air Djibouti",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "214",
   "iata": "PK",
   "name": "Pakistan International Airlines",
@@ -672,11 +1176,39 @@
   "flag": ""
  },
  {
+  "prefix": "215",
+  "iata": "P7",
+  "name": "East Line Airlines JSC",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "216",
-  "iata": "N8",
-  "name": "National Airlines Cargo",
-  "url": "https://www.nationalairlines.com/track-your-shipment/",
-  "flag": "U"
+  "iata": "KC",
+  "name": "Carpathian Air Transport Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "217",
+  "iata": "TG",
+  "name": "Thai Airways International Public Company Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "218",
+  "iata": "NF",
+  "name": "Air Vanuatu Limited",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "219",
+  "iata": "YN",
+  "name": "Air Creebec (1994) Inc.",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "220",
@@ -684,6 +1216,41 @@
   "name": "Deutsche Lufthansa AG",
   "url": "https://www.lufthansa-cargo.com/en/eservices/etracking",
   "flag": "U"
+ },
+ {
+  "prefix": "223",
+  "iata": "DS",
+  "name": "Air Senegal",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "224",
+  "iata": "FR",
+  "name": "Ryanair Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "226",
+  "iata": "C9",
+  "name": "CLA Air Transport Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "227",
+  "iata": "2Q",
+  "name": "International Aviatransport Corporation Rusavia",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "228",
+  "iata": "5E",
+  "name": "Business Aviation Services Eindhoven B.V. Base Airlines",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "229",
@@ -695,7 +1262,14 @@
  {
   "prefix": "230",
   "iata": "CM",
-  "name": "COPA",
+  "name": "COPA - Compañía Panameña de Aviación, S.A.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "231",
+  "iata": "NG",
+  "name": "Lauda Air Luftfahrt Ag",
   "url": null,
   "flag": ""
  },
@@ -728,11 +1302,46 @@
   "flag": "D"
  },
  {
+  "prefix": "237",
+  "iata": "GH",
+  "name": "Ghana Airways Corp.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "238",
+  "iata": "IZ",
+  "name": "Arkia - Israel Airlines Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "239",
+  "iata": "MK",
+  "name": "Air Mauritius",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "240",
+  "iata": "GU",
+  "name": "AVIATECA S.A.",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "242",
   "iata": "A4",
   "name": "Southern Winds S.A.",
   "url": null,
   "flag": "D"
+ },
+ {
+  "prefix": "244",
+  "iata": "TN",
+  "name": "Air Tahiti Nui",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "245",
@@ -742,9 +1351,114 @@
   "flag": "K"
  },
  {
+  "prefix": "247",
+  "iata": "Z7",
+  "name": "Zimbabwe Express Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "248",
+  "iata": "GV",
+  "name": "Riga Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "250",
+  "iata": "HY",
+  "name": "Uzbekistan Airways",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "252",
+  "iata": "PI",
+  "name": "Sunflower Airlines Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "254",
+  "iata": "QW",
+  "name": "Turks & Caicos Airways",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "255",
+  "iata": "FG",
+  "name": "Ariana Afghan Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "256",
+  "iata": "RH",
+  "name": "Regionnair Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "257",
+  "iata": "OS",
+  "name": "Austrian Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "258",
+  "iata": "MD",
+  "name": "Air Madagascar",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "259",
+  "iata": "FN",
+  "name": "Regional Air Lines",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "260",
   "iata": "FJ",
-  "name": "Air Pacific Ltd. (Fiji Airways)",
+  "name": "Air Pacific Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "262",
+  "iata": "U6",
+  "name": "Ural Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "264",
+  "iata": "JH",
+  "name": "Nordeste-Linhas Aereas Regionais",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "265",
+  "iata": "EF",
+  "name": "Far Eastern Air Transport Corp.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "266",
+  "iata": "LT",
+  "name": "LTU Int'l Airways",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "267",
+  "iata": "JY",
+  "name": "Jersey European Airways Ltd.",
   "url": null,
   "flag": ""
  },
@@ -756,9 +1470,86 @@
   "flag": "D"
  },
  {
+  "prefix": "270",
+  "iata": "TL",
+  "name": "Trans-Mediterranean Airways",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "271",
+  "iata": "W7",
+  "name": "Sayakhat Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "272",
+  "iata": "F3",
+  "name": "Flying Enterprise AB.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "273",
+  "iata": "7Q",
+  "name": "Shorouk Air",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "274",
+  "iata": "GK",
+  "name": "Go One Airways Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "275",
+  "iata": "5L",
+  "name": "Compañía Boliviana de Transporte Aereo Privado Aerosur S.A.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "276",
+  "iata": "FQ",
+  "name": "Air Aruba N.V.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "277",
+  "iata": "XF",
+  "name": "Vladivostok Air",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "278",
   "iata": "FS",
-  "name": "Servicios de Ttes. Aéreos Fueguinos",
+  "name": "Servicios de Transportes Aereos Fueguinos S.A.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "281",
+  "iata": "RO",
+  "name": "TAROM - Romanian Air Transport",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "282",
+  "iata": "9D",
+  "name": "Perm Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "283",
+  "iata": "RM",
+  "name": "Air Moldova International S.A.",
   "url": null,
   "flag": ""
  },
@@ -770,6 +1561,13 @@
   "flag": "K"
  },
  {
+  "prefix": "285",
+  "iata": "RA",
+  "name": "Royal Nepal Airlines Corporation",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "286",
   "iata": "PU",
   "name": "PLUNA",
@@ -777,11 +1575,256 @@
   "flag": "D"
  },
  {
+  "prefix": "287",
+  "iata": "4N",
+  "name": "Air North",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "288",
+  "iata": "LD",
+  "name": "AHK Air Hong Kong Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "289",
+  "iata": "OM",
+  "name": "MIAT - Mongolian Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "291",
+  "iata": "R2",
+  "name": "State Unitary Avia Enterprise Orenburg Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "292",
+  "iata": "ZL",
+  "name": "Affretair (private) Limited",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "293",
+  "iata": "SL",
+  "name": "Rio-Sul Servicos Aereos Regionais, S.A.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "294",
+  "iata": "DN",
+  "name": "Voronezh Aircraft Manufacture Society",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "295",
+  "iata": "WM",
+  "name": "Windward Island Airways",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "296",
+  "iata": "CD",
+  "name": "Alliance Air",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "297",
   "iata": "CI",
   "name": "China Airlines",
   "url": "https://cargo.china-airlines.com/",
   "flag": "K"
+ },
+ {
+  "prefix": "302",
+  "iata": "OO",
+  "name": "Sky West Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "303",
+  "iata": "ZW",
+  "name": "Air Wisconsin Airlines Corporation (AWAC)",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "304",
+  "iata": "XN",
+  "name": "Axon Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "305",
+  "iata": "FF",
+  "name": "Tower Air Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "307",
+  "iata": "WE",
+  "name": "Challenge Air Cargo, Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "308",
+  "iata": "5P",
+  "name": "Pena Transportes Aereos S.A.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "310",
+  "iata": "3C",
+  "name": "Corporate Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "311",
+  "iata": "NJ",
+  "name": "Vanguard Airlines, Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "313",
+  "iata": "OQ",
+  "name": "Express Air, Inc. Sunrise Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "316",
+  "iata": "5N",
+  "name": "Arkhangelsk Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "317",
+  "iata": "3A",
+  "name": "Kenosha Aero, Inc. Alliance Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "319",
+  "iata": "8D",
+  "name": "Expo Aviation (PVT) Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "321",
+  "iata": "9J",
+  "name": "Pacific Airlines Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "322",
+  "iata": "9X",
+  "name": "Diamond International Airlines Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "323",
+  "iata": "G3",
+  "name": "City Connexion Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "326",
+  "iata": "T7",
+  "name": "Aircompany Trans Asian Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "327",
+  "iata": "AQ",
+  "name": "Aloha Airlines Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "330",
+  "iata": "RF",
+  "name": "Florida West Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "331",
+  "iata": "S4",
+  "name": "SATA International Servicios e Transportes Aereos S.A.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "332",
+  "iata": "FL",
+  "name": "AirTran Airways, Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "334",
+  "iata": "MM",
+  "name": "Sociedad Aeronautica de Medellin Consolidada S.A.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "336",
+  "iata": "5B",
+  "name": "Trans International Express",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "337",
+  "iata": "SY",
+  "name": "Sun Country Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "338",
+  "iata": "RV",
+  "name": "Reeve Aleutian Airways Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "339",
+  "iata": "KS",
+  "name": "Penair",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "340",
+  "iata": "FB",
+  "name": "Fine Air Services Inc.",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "341",
@@ -798,6 +1841,27 @@
   "flag": "D"
  },
  {
+  "prefix": "344",
+  "iata": "L2",
+  "name": "Lynden Air Cargo",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "345",
+  "iata": "NC",
+  "name": "Northern Air Cargo",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "347",
+  "iata": "WP",
+  "name": "Aloha Islandair Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "349",
   "iata": "KM",
   "name": "Maersk Air",
@@ -806,8 +1870,176 @@
  },
  {
   "prefix": "353",
-  "iata": "UN",
+  "iata": "NU",
   "name": "Japan Transocean Air Co. Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "354",
+  "iata": "ED",
+  "name": "CC Air, Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "356",
+  "iata": "P6",
+  "name": "Trans Air",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "357",
+  "iata": "HQ",
+  "name": "Business Express Airlines, Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "359",
+  "iata": "3T",
+  "name": "Turan Air Airlines Comp.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "360",
+  "iata": "3L",
+  "name": "Africa West",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "363",
+  "iata": "RP",
+  "name": "Chautauqua Airlines Inc. (USAir Express)",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "365",
+  "iata": "4M",
+  "name": "African Star Airways (PTY) Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "366",
+  "iata": "TZ",
+  "name": "American Trans Air Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "367",
+  "iata": "IN",
+  "name": "Macedonian Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "369",
+  "iata": "5Y",
+  "name": "Atlas Air Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "370",
+  "iata": "OP",
+  "name": "Flying Boat Inc. Chalk's International Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "372",
+  "iata": "L4",
+  "name": "Lauda Air Spa",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "373",
+  "iata": "NB",
+  "name": "Sterling European Kommanditaktieselskab",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "375",
+  "iata": "SM",
+  "name": "Sunworld International Airlines Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "378",
+  "iata": "KX",
+  "name": "Cayman Airways Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "381",
+  "iata": "VI",
+  "name": "Vieques Air Link, Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "382",
+  "iata": "EA",
+  "name": "ERA European Regions Airlines S.A.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "386",
+  "iata": "AX",
+  "name": "Air Aurora",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "387",
+  "iata": "GQ",
+  "name": "Big Sky Airways",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "391",
+  "iata": "Q3",
+  "name": "Zambian Airways",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "394",
+  "iata": "HO",
+  "name": "Antinea Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "396",
+  "iata": "5G",
+  "name": "Queen Air",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "398",
+  "iata": "YR",
+  "name": "Eagle Canyon Airlines Inc. Scenic Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "400",
+  "iata": "PF",
+  "name": "Palestinian Airlines",
   "url": null,
   "flag": ""
  },
@@ -840,11 +2072,74 @@
   "flag": "K"
  },
  {
+  "prefix": "411",
+  "iata": "3G",
+  "name": "Atlant-Soyuz Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "412",
+  "iata": "VI",
+  "name": "Joint Stock Airline Volga-Dnepr",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "414",
+  "iata": "9N",
+  "name": "Trans States Airlines Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "420",
+  "iata": "GI",
+  "name": "Air Company Itek-Air Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "421",
+  "iata": "S7",
+  "name": "Siberia Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "422",
+  "iata": "F9",
+  "name": "Frontier Airlines Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "423",
   "iata": "ER",
   "name": "DHL Airways",
   "url": "https://www.dhl.com/global-en/home/tracking.html",
   "flag": "K"
+ },
+ {
+  "prefix": "426",
+  "iata": "9L",
+  "name": "Colgan Air",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "427",
+  "iata": "TX",
+  "name": "La Caribeene de Transports Aeriens",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "428",
+  "iata": "H5",
+  "name": "Magadan Airlines",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "429",
@@ -859,6 +2154,83 @@
   "name": "Express Airlines, Inc.",
   "url": null,
   "flag": "D"
+ },
+ {
+  "prefix": "435",
+  "iata": "P3",
+  "name": "Premier Trans Aire Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "436",
+  "iata": "KJ",
+  "name": "British Mediterranean Airways Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "445",
+  "iata": "NM",
+  "name": "The Mount Cook Group Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "449",
+  "iata": "3M",
+  "name": "Gulfstream Int'l Airlines Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "451",
+  "iata": "R9",
+  "name": "Village Aviation, Inc. Camai Air",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "452",
+  "iata": "9Y",
+  "name": "Air Kazakstan",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "453",
+  "iata": "YX",
+  "name": "Midwest Express Airlines Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "454",
+  "iata": "UJ",
+  "name": "State Airline Ukraine National Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "455",
+  "iata": "NA",
+  "name": "North American Airlines Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "457",
+  "iata": "DQ",
+  "name": "Coastal Air Transport",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "464",
+  "iata": "EM",
+  "name": "Empire Airlines",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "466",
@@ -884,7 +2256,7 @@
  {
   "prefix": "472",
   "iata": "BN",
-  "name": "Forward Air International Airlines",
+  "name": "Forward Air International Airlines, Inc.",
   "url": null,
   "flag": ""
  },
@@ -896,9 +2268,37 @@
   "flag": "D"
  },
  {
+  "prefix": "483",
+  "iata": "X3",
+  "name": "Baikal Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "486",
   "iata": "8G",
   "name": "Gulf & Caribbean Cargo",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "487",
+  "iata": "NK",
+  "name": "Spirit Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "489",
+  "iata": "W8",
+  "name": "Winnport Logistics Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "490",
+  "iata": "WI",
+  "name": "TradeWinds Airlines Inc.",
   "url": null,
   "flag": ""
  },
@@ -910,6 +2310,125 @@
   "flag": "D"
  },
  {
+  "prefix": "495",
+  "iata": "HB",
+  "name": "Harbor Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "497",
+  "iata": "E3",
+  "name": "Joint Stock Aircompany Domodedovo Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "498",
+  "iata": "QN",
+  "name": "Royal Aviation Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "499",
+  "iata": "7B",
+  "name": "Krasnoyarsk Airlines KRASAIR",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "500",
+  "iata": "DA",
+  "name": "Air Georgia",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "503",
+  "iata": "RZ",
+  "name": "Servicios Aereos Nacionales SANSA",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "506",
+  "iata": "KT",
+  "name": "Kampuchea Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "508",
+  "iata": "QJ",
+  "name": "Jet Airways Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "509",
+  "iata": "Z9",
+  "name": "Aero Zambia",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "510",
+  "iata": "JF",
+  "name": "L.A.B. Flying Service Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "512",
+  "iata": "RJ",
+  "name": "Royal Jordanian (Alia - The Royal Jordanian Airline)",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "515",
+  "iata": "4P",
+  "name": "Pacific East Asia Cargo Airlines, Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "517",
+  "iata": "2F",
+  "name": "Frontier Flying Service Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "520",
+  "iata": "S8",
+  "name": "Estonian Aviation cmpany ELK Airways",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "524",
+  "iata": "XM",
+  "name": "Australian Air Express Pty. Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "525",
+  "iata": "B7",
+  "name": "UNI Airways Corp.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "526",
+  "iata": "WN",
+  "name": "Southwest Airlines (Texas)",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "527",
   "iata": "UC",
   "name": "LADECO Cargo (LATAM Cargo)",
@@ -919,7 +2438,7 @@
  {
   "prefix": "528",
   "iata": "ZN",
-  "name": "Eagle Airlines Luftverkehrsges.",
+  "name": "Eagle Airlines Luftverkehrsges Mbh",
   "url": null,
   "flag": ""
  },
@@ -938,6 +2457,41 @@
   "flag": "D"
  },
  {
+  "prefix": "533",
+  "iata": "YV",
+  "name": "Mesa Airlines Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "534",
+  "iata": "WQ",
+  "name": "Romanian Aviation Company ROMAVIA R.A.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "538",
+  "iata": "KP",
+  "name": "Kiwi International Air Lines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "539",
+  "iata": "TH",
+  "name": "Transmile Air Services Sdn.Bhd",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "542",
+  "iata": "T5",
+  "name": "Turkmenistan Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "544",
   "iata": "LP",
   "name": "Lan Peru S.A. (LATAM Cargo)",
@@ -952,6 +2506,13 @@
   "flag": ""
  },
  {
+  "prefix": "552",
+  "iata": "H2",
+  "name": "City Bird",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "553",
   "iata": "FC",
   "name": "Falcon Express Cargo Airlines",
@@ -961,7 +2522,119 @@
  {
   "prefix": "555",
   "iata": "SU",
-  "name": "Aeroflot",
+  "name": "Aeroflot - Russian International Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "560",
+  "iata": "H8",
+  "name": "Dalavia-Far East Airways Khabarovsk",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "561",
+  "iata": "OF",
+  "name": "Transports et Travaux Aeriens de Madagascar",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "566",
+  "iata": "PS",
+  "name": "Ukraine International Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "567",
+  "iata": "CE",
+  "name": "Nationwide Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "568",
+  "iata": "LW",
+  "name": "Air Nevada Airlines Inc. Pacific Wings",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "569",
+  "iata": "7Z",
+  "name": "L.B. Limited",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "570",
+  "iata": "2T",
+  "name": "Canada 3000 Airlines Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "571",
+  "iata": "CB",
+  "name": "Kitty Hawk International Inc. American International Airways",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "572",
+  "iata": "9U",
+  "name": "Air Moldova",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "575",
+  "iata": "7C",
+  "name": "Coyne Airways Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "578",
+  "iata": "2G",
+  "name": "Debonair Airways Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "579",
+  "iata": "2S",
+  "name": "Island Express",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "582",
+  "iata": "XJ",
+  "name": "Mesaba Aviation Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "583",
+  "iata": "ZE",
+  "name": "Cosmos Air Luftfahrtunternehmnen GmbH",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "586",
+  "iata": "RW",
+  "name": "RAS Fluggesellschaft mbh",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "589",
+  "iata": "9W",
+  "name": "Jet Airways (India) Ltd.",
   "url": null,
   "flag": ""
  },
@@ -980,6 +2653,48 @@
   "flag": ""
  },
  {
+  "prefix": "593",
+  "iata": "7R",
+  "name": "Red Sea Air",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "596",
+  "iata": "CS",
+  "name": "Continental Micronesia, Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "598",
+  "iata": "HZ",
+  "name": "Sakhalinshie Aviatrassy SAT",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "602",
+  "iata": "2E",
+  "name": "Sky Cabs (PVT) Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "603",
+  "iata": "UL",
+  "name": "SriLankan Airlines Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "604",
+  "iata": "UY",
+  "name": "Cameroon Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "607",
   "iata": "EY",
   "name": "Etihad Cargo",
@@ -992,6 +2707,27 @@
   "name": "Intercontinental de Aviación",
   "url": null,
   "flag": "D"
+ },
+ {
+  "prefix": "613",
+  "iata": "JB",
+  "name": "Helijet Airways",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "614",
+  "iata": "IQ",
+  "name": "Augsburg-Airways GmbH",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "615",
+  "iata": "QY",
+  "name": "European Air Transport",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "617",
@@ -1015,6 +2751,153 @@
   "flag": ""
  },
  {
+  "prefix": "621",
+  "iata": "MZ",
+  "name": "Merpati Nusantara Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "622",
+  "iata": "MO",
+  "name": "Calm Air International Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "625",
+  "iata": "D6",
+  "name": "Inter-Aviation Services Inter-Air",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "626",
+  "iata": "CG",
+  "name": "MBA Pty. Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "627",
+  "iata": "QV",
+  "name": "Lao Aviation",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "628",
+  "iata": "B2",
+  "name": "Belavia",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "629",
+  "iata": "MI",
+  "name": "SilkAir (Singapore) Pty. Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "631",
+  "iata": "GL",
+  "name": "Greenlandair",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "632",
+  "iata": "JV",
+  "name": "Bearskin Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "634",
+  "iata": "9M",
+  "name": "Central Mountain Air Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "635",
+  "iata": "IY",
+  "name": "Yemenia Yemen Airways",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "636",
+  "iata": "BP",
+  "name": "Air Botswana Corporation",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "638",
+  "iata": "PJ",
+  "name": "Air ST. Pierre",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "639",
+  "iata": "LV",
+  "name": "Albanian Airlines MAK S.H.P.K.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "640",
+  "iata": "FA",
+  "name": "Safair (Propietary) Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "642",
+  "iata": "5D",
+  "name": "Aerolitoral S.A. de C.V.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "643",
+  "iata": "KM",
+  "name": "Air Malta p.l.c.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "646",
+  "iata": "IW",
+  "name": "AOM-Minerve S.A. AOM French Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "647",
+  "iata": "QI",
+  "name": "Cimber Air A/S",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "649",
+  "iata": "TS",
+  "name": "Air Transat",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "652",
+  "iata": "HH",
+  "name": "Islandsflug",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "653",
   "iata": "TR",
   "name": "Transbrasil S.A. Linhas Aéreas",
@@ -1022,11 +2905,130 @@
   "flag": "D"
  },
  {
+  "prefix": "654",
+  "iata": "5K",
+  "name": "State Air Company Odessa Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "655",
+  "iata": "C3",
+  "name": "Independent Carrier (ICAR)",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "656",
+  "iata": "PX",
+  "name": "Air Niugini Pty Ltd. Air Niugini",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "657",
+  "iata": "BT",
+  "name": "Air Baltic Corporation S/A",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "658",
+  "iata": "VJ",
+  "name": "Royal Air Cambodge",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "659",
+  "iata": "FU",
+  "name": "Air Littoral",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "660",
+  "iata": "5W",
+  "name": "Itapemirim Transportes Aereos S/A",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "663",
+  "iata": "U8",
+  "name": "Austrian Airtransport",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "666",
+  "iata": "BO",
+  "name": "PT Bouraq Indonesian Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "667",
   "iata": "PE",
   "name": "Air Europe S.p.A.",
   "url": null,
   "flag": "D"
+ },
+ {
+  "prefix": "668",
+  "iata": "NV",
+  "name": "NTW Air",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "670",
+  "iata": "UN",
+  "name": "Transaero Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "672",
+  "iata": "BI",
+  "name": "Royal Brunei Airlines Sdn. Bhd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "673",
+  "iata": "QU",
+  "name": "Uganda Airlines Corp.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "675",
+  "iata": "NX",
+  "name": "Air Macau Company Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "676",
+  "iata": "WK",
+  "name": "American Falcon S.A.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "677",
+  "iata": "PC",
+  "name": "Air Fiji Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "678",
+  "iata": "KD",
+  "name": "Kendell Airlines",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "680",
@@ -1043,11 +3045,53 @@
   "flag": ""
  },
  {
+  "prefix": "684",
+  "iata": "3P",
+  "name": "Georgian Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "685",
+  "iata": "NI",
+  "name": "Portugalia - Companhia Portuguesa de Transportes Aereos S.A.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "686",
+  "iata": "UZ",
+  "name": "Aerocozumel S.A.",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "688",
   "iata": "EG",
   "name": "Japan Asia Airways Co. Ltd.",
   "url": null,
   "flag": "D"
+ },
+ {
+  "prefix": "689",
+  "iata": "WX",
+  "name": "Cityjet",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "690",
+  "iata": "LJ",
+  "name": "Sierra National Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "691",
+  "iata": "7M",
+  "name": "Tyumen Airlines",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "692",
@@ -1057,6 +3101,20 @@
   "flag": "M"
  },
  {
+  "prefix": "693",
+  "iata": "Y2",
+  "name": "African Joint Air Services Alliance Air",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "694",
+  "iata": "YW",
+  "name": "Air Nostrum L.A.M.S.A",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "695",
   "iata": "BR",
   "name": "EVA Airways Corporation",
@@ -1064,9 +3122,23 @@
   "flag": "K"
  },
  {
+  "prefix": "696",
+  "iata": "VR",
+  "name": "Transportes Aereos de Cabo Verde",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "700",
   "iata": "5C",
   "name": "C.A.L. Cargo Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "701",
+  "iata": "WF",
+  "name": "Wideroe's Flyveselskap A/S",
   "url": null,
   "flag": ""
  },
@@ -1078,9 +3150,65 @@
   "flag": "D"
  },
  {
+  "prefix": "706",
+  "iata": "KQ",
+  "name": "Kenya Airways",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "708",
   "iata": "JO",
   "name": "JALways Co. Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "709",
+  "iata": "6L",
+  "name": "Aklak Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "716",
+  "iata": "MB",
+  "name": "MNG Airlines Cargo",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "718",
+  "iata": "IJ",
+  "name": "Air Liberte",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "721",
+  "iata": "QL",
+  "name": "Air Lesotho (PTY) Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "722",
+  "iata": "8Z",
+  "name": "Linea Aerea de Servicio Ejecutivo Regional Laser C.A.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "723",
+  "iata": "QA",
+  "name": "Aerocaribe",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "724",
+  "iata": "LX",
+  "name": "Swiss WorldCargo (Swiss International Air Lines)",
   "url": null,
   "flag": ""
  },
@@ -1099,6 +3227,160 @@
   "flag": ""
  },
  {
+  "prefix": "733",
+  "iata": "D9",
+  "name": "Joint Stock Aviation Company Donavia",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "734",
+  "iata": "VO",
+  "name": "Tyrolean Airways",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "735",
+  "iata": "TJ",
+  "name": "Transportes Aereos Nacionales de Selva (TANS)",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "737",
+  "iata": "SP",
+  "name": "SATA - Air Acores",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "738",
+  "iata": "VN",
+  "name": "Vietnam Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "739",
+  "iata": "WB",
+  "name": "Servicios Aereos Nacionales (SAN) S.A.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "740",
+  "iata": "NL",
+  "name": "Shaheen Air International",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "741",
+  "iata": "3Z",
+  "name": "Necon Air Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "743",
+  "iata": "M4",
+  "name": "Avioimpex A.D.p.o.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "744",
+  "iata": "8T",
+  "name": "Air Tindi Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "746",
+  "iata": "3N",
+  "name": "Air Urga",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "747",
+  "iata": "YO",
+  "name": "Heli Air Monaco",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "748",
+  "iata": "DU",
+  "name": "Hemus Air",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "749",
+  "iata": "4Z",
+  "name": "SA Airlink South African Airlink",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "750",
+  "iata": "DB",
+  "name": "Brit Air",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "752",
+  "iata": "JZ",
+  "name": "Skyways AB",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "758",
+  "iata": "K2",
+  "name": "Kyrghyzstan Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "759",
+  "iata": "IH",
+  "name": "Falcon Air AB",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "760",
+  "iata": "UU",
+  "name": "Air Austral",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "765",
+  "iata": "7U",
+  "name": "Aviaenergo",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "766",
+  "iata": "E9",
+  "name": "AJT Air International",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "767",
+  "iata": "RC",
+  "name": "Atlantic Airways Faroe Islands",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "768",
   "iata": "EL",
   "name": "Air Nippon Co.",
@@ -1106,9 +3388,23 @@
   "flag": "D"
  },
  {
+  "prefix": "771",
+  "iata": "J2",
+  "name": "Azerbaijan Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "774",
   "iata": "FM",
   "name": "Shanghai Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "778",
+  "iata": "CW",
+  "name": "Air Marshall Islands Inc.",
   "url": null,
   "flag": ""
  },
@@ -1155,11 +3451,130 @@
   "flag": "D"
  },
  {
+  "prefix": "786",
+  "iata": "9C",
+  "name": "Gill Aviation Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "787",
+  "iata": "KB",
+  "name": "Drukair Royal Bhutan Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "791",
+  "iata": "IV",
+  "name": "Fujian Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "796",
+  "iata": "ZR",
+  "name": "Muk Air",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "803",
+  "iata": "AE",
+  "name": "Mandarin Airlines Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "804",
+  "iata": "4S",
+  "name": "East West Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "807",
+  "iata": "AK",
+  "name": "AirAsia",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "808",
+  "iata": "7H",
+  "name": "Era Aviation",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "809",
+  "iata": "RE",
+  "name": "Aer Arann",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "810",
+  "iata": "M6",
+  "name": "Amerijet International Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "811",
+  "iata": "LC",
+  "name": "Legend Airlines, Inc.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "815",
+  "iata": "EP",
+  "name": "Iran Aseman Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "821",
+  "iata": "SG",
+  "name": "Sempati Air",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "823",
+  "iata": "B8",
+  "name": "Italair",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "824",
   "iata": "XT",
   "name": "KLM Exel",
   "url": null,
   "flag": "D"
+ },
+ {
+  "prefix": "828",
+  "iata": "UF",
+  "name": "UM Air (Ukrainian Mediterranean Airlines)",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "829",
+  "iata": "PG",
+  "name": "Bangkok Airways",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "831",
+  "iata": "OU",
+  "name": "Croatia Airlines",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "832",
@@ -1169,9 +3584,163 @@
   "flag": "K"
  },
  {
+  "prefix": "837",
+  "iata": "Y8",
+  "name": "Passaredo Transportes Aereos",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "838",
+  "iata": "GD",
+  "name": "TAESA (Transportes Aéreos Ejecutivos)",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "839",
+  "iata": "LS",
+  "name": "Channel Express",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "840",
+  "iata": "K7",
+  "name": "Sakha Avia",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "842",
+  "iata": "5M",
+  "name": "Sibaviatrans (SiAT)",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "843",
+  "iata": "TT",
+  "name": "Air Lithuania",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "844",
+  "iata": "FD",
+  "name": "CityFlyer Express",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "845",
+  "iata": "P5",
+  "name": "AeroRepública",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "846",
+  "iata": "ZK",
+  "name": "Great Lakes Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "852",
+  "iata": "X9",
+  "name": "Khors Air",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "854",
+  "iata": "IF",
+  "name": "Italy First",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "856",
+  "iata": "LQ",
+  "name": "AIRPAC Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "857",
+  "iata": "TB",
+  "name": "US Air Shuttle (Shuttle, Inc.)",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "859",
+  "iata": "FC",
+  "name": "Tempelhof Express Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "860",
+  "iata": "2M",
+  "name": "Moldavian Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "861",
+  "iata": "HK",
+  "name": "Four Star Air Cargo",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "864",
+  "iata": "ZS",
+  "name": "Azzurra Air",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "865",
   "iata": "MY",
-  "name": "Aerotransportes Mas de Carga",
+  "name": "MasAir (Aerotransportes Mas de Carga)",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "867",
+  "iata": "AP",
+  "name": "Air One",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "869",
+  "iata": "PT",
+  "name": "West Air Sweden",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "870",
+  "iata": "VV",
+  "name": "AeroSvit Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "872",
+  "iata": "CH",
+  "name": "Bemidji Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "874",
+  "iata": "TE",
+  "name": "Lithuanian Airlines",
   "url": null,
   "flag": ""
  },
@@ -1183,11 +3752,179 @@
   "flag": "D"
  },
  {
+  "prefix": "878",
+  "iata": "JI",
+  "name": "Midway Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "879",
+  "iata": "6C",
+  "name": "Cape Smythe Air Service",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "880",
+  "iata": "HU",
+  "name": "Hainan Airlines Comp. Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "881",
+  "iata": "DE",
+  "name": "Condor",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "882",
+  "iata": "NY",
+  "name": "Air Iceland (Flugfélag Íslands)",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "886",
+  "iata": "OH",
+  "name": "Comair",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "891",
+  "iata": "6U",
+  "name": "Air Ukraine",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "897",
+  "iata": "7D",
+  "name": "Donbassaero (Donbass Eastern Ukrainian Airlines)",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "898",
   "iata": "ML",
   "name": "Olympic Aviation S.A.",
   "url": null,
   "flag": "D"
+ },
+ {
+  "prefix": "900",
+  "iata": "L6",
+  "name": "Air Maldives",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "902",
+  "iata": "LL",
+  "name": "Líneas Aéreas Allegro",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "903",
+  "iata": "4D",
+  "name": "Air Sinai",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "906",
+  "iata": "E5",
+  "name": "Samara Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "908",
+  "iata": "4V",
+  "name": "Voyageur Airways",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "909",
+  "iata": "9T",
+  "name": "Athabaska Airways",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "910",
+  "iata": "WY",
+  "name": "Oman Air",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "912",
+  "iata": "AG",
+  "name": "ASL Airlines Ireland (Air Contractors)",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "915",
+  "iata": "WE",
+  "name": "Rheintalflug",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "916",
+  "iata": "JE",
+  "name": "Manx Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "917",
+  "iata": "7P",
+  "name": "APA International Air",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "918",
+  "iata": "XC",
+  "name": "Air Caribbean",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "921",
+  "iata": "6Q",
+  "name": "Slovak Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "924",
+  "iata": "GR",
+  "name": "Aurigny Air Services",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "926",
+  "iata": "BQ",
+  "name": "Aeromar Líneas Aéreas Dominicanas",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "927",
+  "iata": "WJ",
+  "name": "Air Labrador (Labrador Airways)",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "929",
@@ -1197,11 +3934,53 @@
   "flag": "D"
  },
  {
+  "prefix": "930",
+  "iata": "6Y",
+  "name": "NICA (Nicaragüense de Aviación)",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "931",
+  "iata": "M7",
+  "name": "Superior Aviation Services Ltd.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "932",
+  "iata": "VS",
+  "name": "Virgin Atlantic",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "933",
   "iata": "KZ",
   "name": "Nippon Cargo Airlines",
   "url": "https://www.nca.aero/",
   "flag": "K"
+ },
+ {
+  "prefix": "935",
+  "iata": "TL",
+  "name": "Airnorth",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "937",
+  "iata": "QJ",
+  "name": "Latpass Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "940",
+  "iata": "V9",
+  "name": "Bashkirian Airlines (BAL)",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "941",
@@ -1218,11 +3997,67 @@
   "flag": ""
  },
  {
+  "prefix": "944",
+  "iata": "DI",
+  "name": "Deutsche BA",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "946",
+  "iata": "V4",
+  "name": "Vensecar Internacional",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "947",
+  "iata": "Z8",
+  "name": "DHL de Guatemala S.A.",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "948",
+  "iata": "R4",
+  "name": "Rossiya (State Transport Company)",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "956",
+  "iata": "R3",
+  "name": "Armenian Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "957",
   "iata": "JJ",
   "name": "TAM Ttes. Aéreos Meridionais (LATAM Cargo)",
   "url": "https://www.latamcargo.com/",
   "flag": "M"
+ },
+ {
+  "prefix": "959",
+  "iata": "L8",
+  "name": "Laparkan Airways",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "960",
+  "iata": "OV",
+  "name": "Estonian Air",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "967",
+  "iata": "PB",
+  "name": "PAL Airlines (Provincial Airlines)",
+  "url": null,
+  "flag": ""
  },
  {
   "prefix": "970",
@@ -1232,6 +4067,83 @@
   "flag": "D"
  },
  {
+  "prefix": "971",
+  "iata": "WR",
+  "name": "Royal Tongan Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "974",
+  "iata": "ZB",
+  "name": "Monarch Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "976",
+  "iata": "QO",
+  "name": "Aeroméxpress",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "977",
+  "iata": "YS",
+  "name": "Proteus Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "979",
+  "iata": "HV",
+  "name": "Transavia",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "982",
+  "iata": "VM",
+  "name": "Regional Airlines (Francia)",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "983",
+  "iata": "QK",
+  "name": "Air Nova",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "984",
+  "iata": "6E",
+  "name": "Malmö Aviation",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "985",
+  "iata": "VC",
+  "name": "Servivensa (Servicios Avensa)",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "988",
+  "iata": "OZ",
+  "name": "Asiana Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "991",
+  "iata": "D3",
+  "name": "Daallo Airlines",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "992",
   "iata": "D5",
   "name": "DHL Aero Expresso",
@@ -1239,9 +4151,23 @@
   "flag": "D"
  },
  {
+  "prefix": "995",
+  "iata": "JA",
+  "name": "Air Bosna",
+  "url": null,
+  "flag": ""
+ },
+ {
   "prefix": "996",
   "iata": "UX",
-  "name": "Air Europa Líneas Aéreas",
+  "name": "Air Europa",
+  "url": null,
+  "flag": ""
+ },
+ {
+  "prefix": "997",
+  "iata": "BG",
+  "name": "Biman Bangladesh Airlines",
   "url": null,
   "flag": ""
  },

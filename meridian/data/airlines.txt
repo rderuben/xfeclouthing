@@ -1,17 +1,26 @@
 # prefix|iata|name|url|flag   flags: U=url given by user, K=known official site (verify), D=defunct, M=merged (url=successor), blank=search fallback
 001|AA|American Airlines Cargo|https://www.aacargo.com/AACargo/tracking|U
+005|CO|Continental Airlines, Inc.||
 006|DL|Delta Cargo|https://www.deltacargo.com/Cargo/|U
+007|N7|National Airlines Cargo|https://www.nationalairlines.com/track-your-shipment/|U
 012|NW|Northwest Airlines Cargo|https://www.track-express.com/northwest-airlines-cargo-tracking/|D
 014|AC|Air Canada Cargo|https://www.aircanada.com/cargo/tracking|U
+015|TW|Trans World Airlines Inc.||
 016|UA|United Cargo|https://www.unitedcargo.com/en/us/track|U
+017|WZ|IBC Aviation Service Inc. Western Air Freight||
+018|CP|Canadian Airlines International Limited||
 020|LH|Lufthansa Cargo|https://www.lufthansa-cargo.com/en/eservices/etracking|U
 023|FX|FedEx Express|https://www.fedex.com/en-us/tracking.html|U
-216|N8|National Airlines Cargo|https://www.nationalairlines.com/track-your-shipment/|U
 027|AS|Alaska Airlines|https://www.alaskacargo.com/|K
 028|7Q|Air Venezuela L.T.A.||D
+029|3K|Tatonduk outfitters Ltd. Air Cargo Express||
+036|AD|Avialeasing Aviation Comp.||
 037|US|US Airways|https://www.aacargo.com/AACargo/tracking|M
+038|TQ|Tandem Aero Ltd.||
+041|C7|Aerocontinente Chile S.A.||
 042|RG|Varig S.A.||D
-044|AR|Aerolíneas Argentinas||
+043|KA|Hong Kong Dragon Airlines Limited||
+044|AR|Aerolíneas Argentinas S.A.||
 045|LA|Lan Chile S.A. (LATAM Cargo)|https://www.latamcargo.com/|M
 047|TP|TAP – Air Portugal|https://www.tapcargo.com/|K
 048|CY|Cyprus Airways||
@@ -19,13 +28,19 @@
 050|OA|Olympic Airways||D
 051|LB|Lloyd Aero Boliviano (LAB)||D
 053|EI|Aer Lingus Cargo|https://www.iagcargo.com/|K
+054|9P|Pelangi Airways Sdn. Bhd||
 055|AZ|Alitalia – Linee Aeree Italiane||D
+056|YK|Kibris Turk Hava Yollari||
 057|AF|Air France|https://www.afklcargo.com/|K
 058|IC|Indian Airlines||D
+060|YC|Flight West Airlines Pty Ltd.||
+061|HM|Air Seychelles Ltd.||
+062|5V|Lviv Airlines||
 063|SB|Air Caledonie International||
 064|OK|CSA Czech Airlines||
 065|SV|Saudi Arabian Airlines|https://www.saudiacargo.com/|K
-068|TM|LAM – Linhas Aereas Moçambique||
+067|Y4|Eagle Aviation Ltd.||
+068|TM|LAM - Linhas Aereas de Mocambique||
 069|MJ|Lineas Aereas Privadas Argentinas||D
 070|RB|Syrian Arab Airlines||
 071|ET|Ethiopian Airlines Enterprise|https://cargo.ethiopianairlines.com/|K
@@ -35,32 +50,48 @@
 075|IB|Iberia Líneas Aéreas de España|https://www.iagcargo.com/|K
 076|ME|Middle East Airlines AirLiban||
 077|MS|Egyptair||
+078|JR|Aero California||
 079|PR|Philippine Airlines Inc.||
-080|LO|LOT – Polish Airlines||
+080|LO|LOT Polish Airlines||
 081|QF|Qantas Airways Ltd.|https://www.qantasfreight.com/|K
 082|SN|SABENA||D
 083|SA|South African Airways||
 085|SR|Swiss Air Transport Co. (Swissair)||D
 086|NZ|Air New Zealand Ltd.|https://www.airnzcargo.com/|K
 087|WT|Nigeria Airways Ltd.||D
+088|2B|ATA Aerocondor Transportes Aereos Lda.||
 090|AN|Ansett Australia||D
 091|DP|Air 2000 Ltd.||D
 092|RK|Air Afrique||D
 093|WG|Wasaya Airways Ltd.||
+094|7W|Air Sask Aviation 1991||
 095|6A|AVIACSA||D
-096|IR|Iran Air||
+096|IR|Iran Air - The Airline of Islamic Republic of Iran||
 098|AI|Air India Ltd.||
 100|JQ|Air Jamaica Express Ltd.||D
+101|EN|Air Dolomiti SPA Linee Aeree Regionali Europee||
+102|KG|Linea Aerea I.A.A.C.A. (L.A.I.)||
+104|EW|Eurowings A.G.||
+106|BW|BWIA International Airways Limited||
+107|F7|Closed Joint-Stock Aircompany Volare||
 108|FI|Icelandair|https://www.icelandaircargo.com/|K
 109|L9|Air Mali S.A.||D
 110|AO|Aviación y Comercio S.A. (Aviaco)||D
+111|UP|Bahamasair||
 112|CK|China Cargo Airlines Ltd.||
+113|GW|Air Lines of Kuban||
 114|LY|EL AL Israel Airlines Ltd.||
 115|JU|Jugoslovenski Aerotransport (JAT)||D
 117|SK|Scandinavian Airlines System (SAS)|https://www.sascargo.com/|K
-118|DT|TAAG Linhas Aereas de Angola||
-124|AH|Air Algérie||
+118|DT|TAAG Linhas Aereas de Angola - Angola Airlines||
+119|LM|ALM 1997 Airline Inc., AirALM||
+120|JS|Air Koryo||
+121|ZY|Ada Air||
+123|ON|Air Nauru||
+124|AH|Air Algerie||
 125|BA|British Airways P.L.C.|https://www.iagcargo.com/|K
+126|GA|Garuda Indonesia||
+128|VE|Aerovias Venezolanas S.A. (Avensa)||
 129|MP|Martinair Holland N.V.|https://www.afklcargo.com/|K
 130|UK|KLM UK Ltd.||D
 131|JL|Japan Airlines Company|https://www.jal.co.jp/jalcargo/en/|K
@@ -72,109 +103,496 @@
 137|VX|Aerolíneas Centrales de Colombia||D
 138|HG|Haiti International Airlines||D
 139|AM|Aeroméxico Cargo|https://aeromexicocargo.com.mx/|K
+140|LI|LIAT (1974) Ltd.||
+141|ZC|Royal Swazi National Airways Corp.||
+142|KF|Oy Air Botnia Ab.||
 143|AU|Cielos del Sur / Austral Líneas Aéreas||D
+144|7T|Aero Express del Ecuador (Trans AM)||
 145|UC|Ladeco S.A. / Ladeco Airlines (LATAM Cargo)|https://www.latamcargo.com/|M
+146|XK|Compagnie Aerienne Corse Mediterranee||
 147|AT|Royal Air Maroc||
 148|LN|Jamahiriya Libyan Arab Airlines||
 149|LG|Luxair|https://www.luxaircargo.com/|K
+150|UG|Tuninter S.A.||
+151|Q9|Interbrasil Star S.A.||
 152|VH|Aeropostal Alas de Venezuela||D
+154|BU|Braathens ASA||
 155|ES|DHL International E.C.|https://www.dhl.com/global-en/home/tracking.html|K
 156|EH|SAETA Soc. Ecuatoriana de Ttes. Aéreos||D
 157|QR|Qatar Airways (W.L.L.)|https://www.qrcargo.com/|K
 159|ND|Airlink Limited||
 160|CX|Cathay Pacific Airways|https://www.cathaycargo.com/|K
+161|MN|Comair Ltd.||
 162|PH|Polynesian Limited||
 165|JP|Adria Airways||D
+166|IK|IMAIR Airline||
+167|QM|Air Malawi Limited||
+168|UM|Air Zimbabwe Corporation||
+169|HR|Hahn Air Businessline||
 170|GE|Trans Asia Airways||D
+171|GT|GB Airways Ltd.||
 172|CV|Cargolux Airlines International|https://www.cargolux.com/|K
 173|HA|Hawaiian Airlines||
 174|MR|Air Mauritanie||
 176|EK|Emirates SkyCargo|https://www.skycargo.com/|K
+178|SJ|AVIANDINA S.A.C.||
 180|KE|Korean Air Lines Co. Ltd.|https://cargo.koreanair.com/|K
-190|TY|Air Calédonie||
+181|Z6|Dnieproavia - Joint Stock Aviation Co.||
+182|MA|MALEV Hungarian Airlines Public Limited Company (Malev p.l.c.)||
+183|8K|Air Ostrava||
+184|U7|USA Jet Airlines, Inc.||
+185|GN|Air Gabon||
+186|SW|Air Namibia||
+188|3J|Air Alliance, Inc.||
+189|C2|Air Caribbean Ltd.||
+190|TY|Air Caledonie||
+191|IG|Meridiana S.p.A||
+192|PY|Surinam Airways Ltd.||
+193|IE|Solomon Airlines||
+196|LZ|Balkan - Bulgarian Airlines||
+197|TC|Air Tanzania Corporation||
+198|X5|Cronus Airlines||
+199|TU|Tunis Air||
+200|SD|Sudan Airways Co. Ltd.||
+201|JM|Air Jamaica||
 202|TA|TACA International Airlines|https://www.aviancacargo.com/|M
+203|5J|CEBU Pacific Air||
+204|T6|Tavrey Aircompany||
 205|NH|All Nippon Airways Co. Ltd.|https://www.ana.co.jp/en/jp/cargo/|K
+206|GY|Guyana Airways 2000 Inc.||
+207|R6|Air Srpska||
+208|B3|Bellview Airlines Ltd.||
+209|UB|Myanmar Airways Int'l||
 210|PL|Aeroperu||D
+211|2P|Air Philippines Corp.||
+213|DY|Air Djibouti||
 214|PK|Pakistan International Airlines||
+215|P7|East Line Airlines JSC||
+216|KC|Carpathian Air Transport Ltd.||
+217|TG|Thai Airways International Public Company Ltd.||
+218|NF|Air Vanuatu Limited||
+219|YN|Air Creebec (1994) Inc.||
 220|LH|Deutsche Lufthansa AG|https://www.lufthansa-cargo.com/en/eservices/etracking|U
+223|DS|Air Senegal||
+224|FR|Ryanair Ltd.||
+226|C9|CLA Air Transport Inc.||
+227|2Q|International Aviatransport Corporation Rusavia||
+228|5E|Business Aviation Services Eindhoven B.V. Base Airlines||
 229|KU|Kuwait Airways||
-230|CM|COPA||
+230|CM|COPA - Compañía Panameña de Aviación, S.A.||
+231|NG|Lauda Air Luftfahrt Ag||
 232|MH|Malaysian Airlines System Berhad|https://www.maskargo.com/|K
 234|JD|Japan Air System Company||D
 235|TK|Turkish Airlines|https://www.turkishcargo.com.tr/|K
 236|BD|British Midland Airways Ltd.||D
+237|GH|Ghana Airways Corp.||
+238|IZ|Arkia - Israel Airlines Ltd.||
+239|MK|Air Mauritius||
+240|GU|AVIATECA S.A.||
 242|A4|Southern Winds S.A.||D
+244|TN|Air Tahiti Nui||
 245|7F|Finnair|https://cargo.finnair.com/|K
-260|FJ|Air Pacific Ltd. (Fiji Airways)||
+247|Z7|Zimbabwe Express Airlines||
+248|GV|Riga Airlines||
+250|HY|Uzbekistan Airways||
+252|PI|Sunflower Airlines Ltd.||
+254|QW|Turks & Caicos Airways||
+255|FG|Ariana Afghan Airlines||
+256|RH|Regionnair Inc.||
+257|OS|Austrian Airlines||
+258|MD|Air Madagascar||
+259|FN|Regional Air Lines||
+260|FJ|Air Pacific Ltd.||
+262|U6|Ural Airlines||
+264|JH|Nordeste-Linhas Aereas Regionais||
+265|EF|Far Eastern Air Transport Corp.||
+266|LT|LTU Int'l Airways||
+267|JY|Jersey European Airways Ltd.||
 269|EQ|TAME Línea Aérea del Ecuador||D
-278|FS|Servicios de Ttes. Aéreos Fueguinos||
+270|TL|Trans-Mediterranean Airways||
+271|W7|Sayakhat Airlines||
+272|F3|Flying Enterprise AB.||
+273|7Q|Shorouk Air||
+274|GK|Go One Airways Ltd.||
+275|5L|Compañía Boliviana de Transporte Aereo Privado Aerosur S.A.||
+276|FQ|Air Aruba N.V.||
+277|XF|Vladivostok Air||
+278|FS|Servicios de Transportes Aereos Fueguinos S.A.||
+281|RO|TAROM - Romanian Air Transport||
+282|9D|Perm Airlines||
+283|RM|Air Moldova International S.A.||
 284|T2|Thai Air Cargo Co. Ltd.|https://www.thaicargo.com/|K
+285|RA|Royal Nepal Airlines Corporation||
 286|PU|PLUNA||D
+287|4N|Air North||
+288|LD|AHK Air Hong Kong Ltd.||
+289|OM|MIAT - Mongolian Airlines||
+291|R2|State Unitary Avia Enterprise Orenburg Airlines||
+292|ZL|Affretair (private) Limited||
+293|SL|Rio-Sul Servicos Aereos Regionais, S.A.||
+294|DN|Voronezh Aircraft Manufacture Society||
+295|WM|Windward Island Airways||
+296|CD|Alliance Air||
 297|CI|China Airlines|https://cargo.china-airlines.com/|K
+302|OO|Sky West Airlines||
+303|ZW|Air Wisconsin Airlines Corporation (AWAC)||
+304|XN|Axon Airlines||
+305|FF|Tower Air Inc.||
+307|WE|Challenge Air Cargo, Inc.||
+308|5P|Pena Transportes Aereos S.A.||
+310|3C|Corporate Airlines||
+311|NJ|Vanguard Airlines, Inc.||
+313|OQ|Express Air, Inc. Sunrise Airlines||
+316|5N|Arkhangelsk Airlines||
+317|3A|Kenosha Aero, Inc. Alliance Airlines||
+319|8D|Expo Aviation (PVT) Ltd.||
+321|9J|Pacific Airlines Airlines||
+322|9X|Diamond International Airlines Inc.||
+323|G3|City Connexion Airlines||
+326|T7|Aircompany Trans Asian Airlines||
+327|AQ|Aloha Airlines Inc.||
+330|RF|Florida West Airlines||
+331|S4|SATA International Servicios e Transportes Aereos S.A.||
+332|FL|AirTran Airways, Inc.||
+334|MM|Sociedad Aeronautica de Medellin Consolidada S.A.||
+336|5B|Trans International Express||
+337|SY|Sun Country Airlines||
+338|RV|Reeve Aleutian Airways Inc.||
+339|KS|Penair||
+340|FB|Fine Air Services Inc.||
 341|EU|Ecuatoriana de Aviación S.A.||D
 343|VP|VASP||D
+344|L2|Lynden Air Cargo||
+345|NC|Northern Air Cargo||
+347|WP|Aloha Islandair Inc.||
 349|KM|Maersk Air||D
-353|UN|Japan Transocean Air Co. Ltd.||
+353|NU|Japan Transocean Air Co. Ltd.||
+354|ED|CC Air, Inc.||
+356|P6|Trans Air||
+357|HQ|Business Express Airlines, Inc.||
+359|3T|Turan Air Airlines Comp.||
+360|3L|Africa West||
+363|RP|Chautauqua Airlines Inc. (USAir Express)||
+365|4M|African Star Airways (PTY) Ltd.||
+366|TZ|American Trans Air Inc.||
+367|IN|Macedonian Airlines||
+369|5Y|Atlas Air Inc.||
+370|OP|Flying Boat Inc. Chalk's International Airlines||
+372|L4|Lauda Air Spa||
+373|NB|Sterling European Kommanditaktieselskab||
+375|SM|Sunworld International Airlines Inc.||
+378|KX|Cayman Airways Ltd.||
+381|VI|Vieques Air Link, Inc.||
+382|EA|ERA European Regions Airlines S.A.||
+386|AX|Air Aurora||
+387|GQ|Big Sky Airways||
+391|Q3|Zambian Airways||
+394|HO|Antinea Airlines||
+396|5G|Queen Air||
+398|YR|Eagle Canyon Airlines Inc. Scenic Airlines||
+400|PF|Palestinian Airlines||
 401|HP|America West Airlines Inc.||D
 403|PO|Polar Air Cargo, Inc.||
 404|JW|Arrow Air Inc.||D
 406|5X|UPS|https://www.ups.com/track|K
+411|3G|Atlant-Soyuz Airlines||
+412|VI|Joint Stock Airline Volga-Dnepr||
+414|9N|Trans States Airlines Inc.||
+420|GI|Air Company Itek-Air Ltd.||
+421|S7|Siberia Airlines||
+422|F9|Frontier Airlines Inc.||
 423|ER|DHL Airways|https://www.dhl.com/global-en/home/tracking.html|K
+426|9L|Colgan Air||
+427|TX|La Caribeene de Transports Aeriens||
+428|H5|Magadan Airlines||
 429|D7|Dinar Líneas Aéreas S.A.||D
 430|9E|Express Airlines, Inc.||D
+435|P3|Premier Trans Aire Inc.||
+436|KJ|British Mediterranean Airways Ltd.||
+445|NM|The Mount Cook Group Ltd.||
+449|3M|Gulfstream Int'l Airlines Inc.||
+451|R9|Village Aviation, Inc. Camai Air||
+452|9Y|Air Kazakstan||
+453|YX|Midwest Express Airlines Inc.||
+454|UJ|State Airline Ukraine National Airlines||
+455|NA|North American Airlines Inc.||
+457|DQ|Coastal Air Transport||
+464|EM|Empire Airlines||
 466|5Z|Airfreight Express Ltd.||
 468|WO|World Airways||D
 471|ZV|Air Midwest||D
-472|BN|Forward Air International Airlines||
+472|BN|Forward Air International Airlines, Inc.||
 480|DH|Atlantic Coast Airlines / United Exp.||D
+483|X3|Baikal Airlines||
 486|8G|Gulf & Caribbean Cargo||
+487|NK|Spirit Airlines||
+489|W8|Winnport Logistics Ltd.||
+490|WI|TradeWinds Airlines Inc.||
 494|EZ|Evergreen International Airlines||D
+495|HB|Harbor Airlines||
+497|E3|Joint Stock Aircompany Domodedovo Airlines||
+498|QN|Royal Aviation Inc.||
+499|7B|Krasnoyarsk Airlines KRASAIR||
+500|DA|Air Georgia||
+503|RZ|Servicios Aereos Nacionales SANSA||
+506|KT|Kampuchea Airlines||
+508|QJ|Jet Airways Inc.||
+509|Z9|Aero Zambia||
+510|JF|L.A.B. Flying Service Inc.||
+512|RJ|Royal Jordanian (Alia - The Royal Jordanian Airline)||
+515|4P|Pacific East Asia Cargo Airlines, Inc.||
+517|2F|Frontier Flying Service Inc.||
+520|S8|Estonian Aviation cmpany ELK Airways||
+524|XM|Australian Air Express Pty. Ltd.||
+525|B7|UNI Airways Corp.||
+526|WN|Southwest Airlines (Texas)||
 527|UC|LADECO Cargo (LATAM Cargo)|https://www.latamcargo.com/|M
-528|ZN|Eagle Airlines Luftverkehrsges.||
+528|ZN|Eagle Airlines Luftverkehrsges Mbh||
 529|A2|Cielos del Perú S.A.||D
 532|E4|Aero Asia International Ltd.||D
+533|YV|Mesa Airlines Inc.||
+534|WQ|Romanian Aviation Company ROMAVIA R.A.||
+538|KP|Kiwi International Air Lines||
+539|TH|Transmile Air Services Sdn.Bhd||
+542|T5|Turkmenistan Airlines||
 544|LP|Lan Peru S.A. (LATAM Cargo)|https://www.latamcargo.com/|M
 550|BL|Pacific Airlines Co. Ltd.||
+552|H2|City Bird||
 553|FC|Falcon Express Cargo Airlines||
-555|SU|Aeroflot||
+555|SU|Aeroflot - Russian International Airlines||
+560|H8|Dalavia-Far East Airways Khabarovsk||
+561|OF|Transports et Travaux Aeriens de Madagascar||
+566|PS|Ukraine International Airlines||
+567|CE|Nationwide Airlines||
+568|LW|Air Nevada Airlines Inc. Pacific Wings||
+569|7Z|L.B. Limited||
+570|2T|Canada 3000 Airlines Ltd.||
+571|CB|Kitty Hawk International Inc. American International Airways||
+572|9U|Air Moldova||
+575|7C|Coyne Airways Ltd.||
+578|2G|Debonair Airways Ltd.||
+579|2S|Island Express||
+582|XJ|Mesaba Aviation Inc.||
+583|ZE|Cosmos Air Luftfahrtunternehmnen GmbH||
+586|RW|RAS Fluggesellschaft mbh||
+589|9W|Jet Airways (India) Ltd.||
 591|EB|Emery Worldwide Airlines Inc.||D
 592|3Q|China Yunnan Airlines||
+593|7R|Red Sea Air||
+596|CS|Continental Micronesia, Inc.||
+598|HZ|Sakhalinshie Aviatrassy SAT||
+602|2E|Sky Cabs (PVT) Ltd.||
+603|UL|SriLankan Airlines Ltd.||
+604|UY|Cameroon Airlines||
+607|EY|Etihad Cargo|https://www.etihadcargo.com/|K
 608|RS|Intercontinental de Aviación||D
+613|JB|Helijet Airways||
+614|IQ|Augsburg-Airways GmbH||
+615|QY|European Air Transport||
 617|HF|Hapag Lloyd Fluggesellschaft||D
 618|SQ|Singapore Airlines|https://www.siacargo.com/|K
 619|F6|China National Aviation Corp.||
+621|MZ|Merpati Nusantara Airlines||
+622|MO|Calm Air International Ltd.||
+625|D6|Inter-Aviation Services Inter-Air||
+626|CG|MBA Pty. Ltd.||
+627|QV|Lao Aviation||
+628|B2|Belavia||
+629|MI|SilkAir (Singapore) Pty. Ltd.||
+631|GL|Greenlandair||
+632|JV|Bearskin Airlines||
+634|9M|Central Mountain Air Ltd.||
+635|IY|Yemenia Yemen Airways||
+636|BP|Air Botswana Corporation||
+638|PJ|Air ST. Pierre||
+639|LV|Albanian Airlines MAK S.H.P.K.||
+640|FA|Safair (Propietary) Ltd.||
+642|5D|Aerolitoral S.A. de C.V.||
+643|KM|Air Malta p.l.c.||
+646|IW|AOM-Minerve S.A. AOM French Airlines||
+647|QI|Cimber Air A/S||
+649|TS|Air Transat||
+652|HH|Islandsflug||
 653|TR|Transbrasil S.A. Linhas Aéreas||D
+654|5K|State Air Company Odessa Airlines||
+655|C3|Independent Carrier (ICAR)||
+656|PX|Air Niugini Pty Ltd. Air Niugini||
+657|BT|Air Baltic Corporation S/A||
+658|VJ|Royal Air Cambodge||
+659|FU|Air Littoral||
+660|5W|Itapemirim Transportes Aereos S/A||
+663|U8|Austrian Airtransport||
+666|BO|PT Bouraq Indonesian Airlines||
 667|PE|Air Europe S.p.A.||D
+668|NV|NTW Air||
+670|UN|Transaero Airlines||
+672|BI|Royal Brunei Airlines Sdn. Bhd.||
+673|QU|Uganda Airlines Corp.||
+675|NX|Air Macau Company Ltd.||
+676|WK|American Falcon S.A.||
+677|PC|Air Fiji Ltd.||
+678|KD|Kendell Airlines||
 680|JK|Spanair S.A.||D
 683|CL|Lufthansa CityLine GmbH||
+684|3P|Georgian Airlines||
+685|NI|Portugalia - Companhia Portuguesa de Transportes Aereos S.A.||
+686|UZ|Aerocozumel S.A.||
 688|EG|Japan Asia Airways Co. Ltd.||D
+689|WX|Cityjet||
+690|LJ|Sierra National Airlines||
+691|7M|Tyumen Airlines||
 692|PZ|TAM S.A. (LATAM Cargo)|https://www.latamcargo.com/|M
+693|Y2|African Joint Air Services Alliance Air||
+694|YW|Air Nostrum L.A.M.S.A||
 695|BR|EVA Airways Corporation|https://www.evaair.com/en-global/cargo/|K
+696|VR|Transportes Aereos de Cabo Verde||
 700|5C|C.A.L. Cargo Airlines||
+701|WF|Wideroe's Flyveselskap A/S||
 702|VB|Maersk Air Ltd.||D
+706|KQ|Kenya Airways||
 708|JO|JALways Co. Ltd.||
+709|6L|Aklak Inc.||
+716|MB|MNG Airlines Cargo||
+718|IJ|Air Liberte||
+721|QL|Air Lesotho (PTY) Ltd.||
+722|8Z|Linea Aerea de Servicio Ejecutivo Regional Laser C.A.||
+723|QA|Aerocaribe||
+724|LX|Swiss WorldCargo (Swiss International Air Lines)||
 725|YU|Aerolíneas Dominicanas S.A.||D
 731|MF|Xiamen Airlines Company||
+733|D9|Joint Stock Aviation Company Donavia||
+734|VO|Tyrolean Airways||
+735|TJ|Transportes Aereos Nacionales de Selva (TANS)||
+737|SP|SATA - Air Acores||
+738|VN|Vietnam Airlines||
+739|WB|Servicios Aereos Nacionales (SAN) S.A.||
+740|NL|Shaheen Air International||
+741|3Z|Necon Air Ltd.||
+743|M4|Avioimpex A.D.p.o.||
+744|8T|Air Tindi Ltd.||
+746|3N|Air Urga||
+747|YO|Heli Air Monaco||
+748|DU|Hemus Air||
+749|4Z|SA Airlink South African Airlink||
+750|DB|Brit Air||
+752|JZ|Skyways AB||
+758|K2|Kyrghyzstan Airlines||
+759|IH|Falcon Air AB||
+760|UU|Air Austral||
+765|7U|Aviaenergo||
+766|E9|AJT Air International||
+767|RC|Atlantic Airways Faroe Islands||
 768|EL|Air Nippon Co.||D
+771|J2|Azerbaijan Airlines||
 774|FM|Shanghai Airlines||
+778|CW|Air Marshall Islands Inc.||
 779|XW|China Xinhua Airlines||D
 781|MU|China Eastern Airlines|https://www.ceair.com/|K
 782|CJ|China Northern Airlines||D
 783|WH|China Northwest Airlines||D
 784|CZ|China Southern Airlines||
 785|SZ|China Southwest Airlines||D
+786|9C|Gill Aviation Ltd.||
+787|KB|Drukair Royal Bhutan Airlines||
+791|IV|Fujian Airlines||
+796|ZR|Muk Air||
+803|AE|Mandarin Airlines Ltd.||
+804|4S|East West Airlines||
+807|AK|AirAsia||
+808|7H|Era Aviation||
+809|RE|Aer Arann||
+810|M6|Amerijet International Inc.||
+811|LC|Legend Airlines, Inc.||
+815|EP|Iran Aseman Airlines||
+821|SG|Sempati Air||
+823|B8|Italair||
 824|XT|KLM Exel||D
+828|UF|UM Air (Ukrainian Mediterranean Airlines)||
+829|PG|Bangkok Airways||
+831|OU|Croatia Airlines||
 832|GB|ABX Air, Inc.|https://www.abxair.com/|K
-865|MY|Aerotransportes Mas de Carga||
+837|Y8|Passaredo Transportes Aereos||
+838|GD|TAESA (Transportes Aéreos Ejecutivos)||
+839|LS|Channel Express||
+840|K7|Sakha Avia||
+842|5M|Sibaviatrans (SiAT)||
+843|TT|Air Lithuania||
+844|FD|CityFlyer Express||
+845|P5|AeroRepública||
+846|ZK|Great Lakes Airlines||
+852|X9|Khors Air||
+854|IF|Italy First||
+856|LQ|AIRPAC Airlines||
+857|TB|US Air Shuttle (Shuttle, Inc.)||
+859|FC|Tempelhof Express Airlines||
+860|2M|Moldavian Airlines||
+861|HK|Four Star Air Cargo||
+864|ZS|Azzurra Air||
+865|MY|MasAir (Aerotransportes Mas de Carga)||
+867|AP|Air One||
+869|PT|West Air Sweden||
+870|VV|AeroSvit Airlines||
+872|CH|Bemidji Airlines||
+874|TE|Lithuanian Airlines||
 877|KK|TAM Transportes Aéreos Regionais||D
+878|JI|Midway Airlines||
+879|6C|Cape Smythe Air Service||
+880|HU|Hainan Airlines Comp. Ltd.||
+881|DE|Condor||
+882|NY|Air Iceland (Flugfélag Íslands)||
+886|OH|Comair||
+891|6U|Air Ukraine||
+897|7D|Donbassaero (Donbass Eastern Ukrainian Airlines)||
 898|ML|Olympic Aviation S.A.||D
+900|L6|Air Maldives||
+902|LL|Líneas Aéreas Allegro||
+903|4D|Air Sinai||
+906|E5|Samara Airlines||
+908|4V|Voyageur Airways||
+909|9T|Athabaska Airways||
+910|WY|Oman Air||
+912|AG|ASL Airlines Ireland (Air Contractors)||
+915|WE|Rheintalflug||
+916|JE|Manx Airlines||
+917|7P|APA International Air||
+918|XC|Air Caribbean||
+921|6Q|Slovak Airlines||
+924|GR|Aurigny Air Services||
+926|BQ|Aeromar Líneas Aéreas Dominicanas||
+927|WJ|Air Labrador (Labrador Airways)||
 929|N6|Aero Continente||D
+930|6Y|NICA (Nicaragüense de Aviación)||
+931|M7|Superior Aviation Services Ltd.||
+932|VS|Virgin Atlantic||
 933|KZ|Nippon Cargo Airlines|https://www.nca.aero/|K
+935|TL|Airnorth||
+937|QJ|Latpass Airlines||
+940|V9|Bashkirian Airlines (BAL)||
 941|ZQ|Ansett New Zealand||D
 942|VW|Transportes Aeromar||
+944|DI|Deutsche BA||
+946|V4|Vensecar Internacional||
+947|Z8|DHL de Guatemala S.A.||
+948|R4|Rossiya (State Transport Company)||
+956|R3|Armenian Airlines||
 957|JJ|TAM Ttes. Aéreos Meridionais (LATAM Cargo)|https://www.latamcargo.com/|M
+959|L8|Laparkan Airways||
+960|OV|Estonian Air||
+967|PB|PAL Airlines (Provincial Airlines)||
 970|BX|Coast Air K.S.||D
+971|WR|Royal Tongan Airlines||
+974|ZB|Monarch Airlines||
+976|QO|Aeroméxpress||
+977|YS|Proteus Airlines||
+979|HV|Transavia||
+982|VM|Regional Airlines (Francia)||
+983|QK|Air Nova||
+984|6E|Malmö Aviation||
+985|VC|Servivensa (Servicios Avensa)||
+988|OZ|Asiana Airlines||
+991|D3|Daallo Airlines||
 992|D5|DHL Aero Expresso||D
-996|UX|Air Europa Líneas Aéreas||
+995|JA|Air Bosna||
+996|UX|Air Europa||
+997|BG|Biman Bangladesh Airlines||
 999|CA|Air China International Corp.|https://www.airchinacargo.com/|K
-607|EY|Etihad Cargo|https://www.etihadcargo.com/|K
